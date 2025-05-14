@@ -1,0 +1,38 @@
+import React, { useEffect, useState } from 'react'
+import { NavLink, useLocation } from 'react-router-dom'
+import '../styles/navigation.css'
+import { IoMenu } from "react-icons/io5";
+
+const Navigation = () => {
+    const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false)
+    const route = useLocation()
+
+    useEffect(() => {
+        setIsMobileMenuOpen(false)
+    }, [route.pathname])
+
+  return (
+    <div className="navigation-bar">
+        <nav className='nav-links'>
+            <NavLink className="logo" to={'/'}>세부밤문화No.1</NavLink>
+            <NavLink to={'/poolvilla'} className={({isActive}) => isActive ? 'active' : ''}>세부풀빌라</NavLink>
+            <NavLink to={'/escortgirl'} className={({isActive}) => isActive ? 'active' : ''}>세부에스코트걸</NavLink>
+            <NavLink to={'/golf'} className={({isActive}) => isActive ? 'active' : ''}>세부골프</NavLink>
+            <NavLink to={'/nightlife'} className={({isActive}) => isActive ? 'active' : ''}>세부밤문화정보</NavLink>
+            <NavLink to={'/inquiry'} className={({isActive}) => isActive ? 'active' : ''}>1:1문의</NavLink>
+            <div className="burger-menu" onClick={() => setIsMobileMenuOpen(true)}><IoMenu /></div>
+            
+            <nav className={`mobile-nav-links ${isMobileMenuOpen ? 'show' : ''}`}>
+                <div className="close" onClick={() => setIsMobileMenuOpen(false)}>&times;</div>
+                <NavLink to={'/poolvilla'} className={({isActive}) => isActive ? 'active' : ''}>세부풀빌라</NavLink>
+                <NavLink to={'/escortgirl'} className={({isActive}) => isActive ? 'active' : ''}>세부에스코트걸</NavLink>
+                <NavLink to={'/golf'} className={({isActive}) => isActive ? 'active' : ''}>세부골프</NavLink>
+                <NavLink to={'/nightlife'} className={({isActive}) => isActive ? 'active' : ''}>세부밤문화정보</NavLink>
+                <NavLink to={'/inquiry'} className={({isActive}) => isActive ? 'active' : ''}>1:1문의</NavLink>
+            </nav>
+        </nav>
+    </div>
+  )
+}
+
+export default Navigation
