@@ -59,6 +59,8 @@
                 padding-block: 0.75rem;
                 text-align: center;
                 width: 100%;
+                text-decoration: none;
+                color: black;
 
                 &.active {
                     color: var(--accent-color);
