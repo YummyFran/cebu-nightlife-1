@@ -1,0 +1,90 @@
+.carousel {
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .swiper {
+        .custom-nav {
+            display: none;
+        }
+
+        .swiper-pagination-bullet-active {
+            background: var(--accent-color);
+            width: 20px;
+            border-radius: 20px;
+            transition: 0.5s;
+        }
+    }
+
+    .hero {
+        position: absolute;
+        z-index: 5;
+        color: white;
+        text-align: center;
+        margin-inline: var(--side-margin);
+        pointer-events: none;
+
+        h1 {
+            font-size: 2rem;
+        }
+
+        h2 {
+            font-size: 0.8rem;
+        }
+    }
+}
+@media (min-width: 768px) {
+    .carousel {
+
+        .swiper {
+            width: 100vw;
+            height: 100vh;
+
+            .custom-nav {
+                display: block;
+                position: absolute;
+                top: 0;
+                height: 100%;
+                z-index: 10;
+                background-color: transparent;
+                color: white;
+                border: none;
+                font-size: 2rem;
+                padding: 1.5rem;
+                cursor: pointer;
+                transition: 0.5s;
+
+                &.custom-prev {
+                    left: 0;
+
+                    &:hover {
+                        background-image: linear-gradient(to right, rgba(0, 0, 0, 0.4) 30%, transparent 100%);
+                    }
+                }
+
+                &.custom-next {
+                    right: 0;
+
+                    &:hover {
+                        background-image: linear-gradient(to left, rgba(0, 0, 0, 0.4) 30%, transparent 100%);
+                    }
+                }
+            }
+
+            
+        }
+
+        .hero {
+
+            h1 {
+                font-size: 2.5rem;
+            }
+
+            h2 {
+                font-size: 1rem;
+            }
+        }
+    }
+}
