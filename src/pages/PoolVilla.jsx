@@ -15,7 +15,7 @@ const PoolVilla = () => {
     >
       {/* Wrapper matches card layout max-width */}
       <div style={{ width: '100%', maxWidth: 'var(--max-width)' }}>
-        <h1 style={{ marginBottom: '2rem' }}>Cebu Pool Villa</h1>
+        <h1 style={{ marginBottom: '2rem' }}>세부풀빌라</h1>
         <TwoCardLayout />
       </div>
     </div>

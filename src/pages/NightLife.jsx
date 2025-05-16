@@ -15,7 +15,7 @@ const NightLife = () => {
     >
       {/* Wrapper matches card layout max-width */}
       <div style={{ width: '100%', maxWidth: 'var(--max-width)' }}>
-        <h1 style={{ marginBottom: '2rem' }}>Cebu NightLife Information</h1>
+        <h1 style={{ marginBottom: '2rem' }}>세부밤문화정보</h1>
         <TwoCardLayout />
       </div>
     </div>

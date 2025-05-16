@@ -15,7 +15,7 @@ const Inquiry = () => {
     >
       {/* Wrapper matches card layout max-width */}
       <div style={{ width: '100%', maxWidth: 'var(--max-width)' }}>
-        <h1 style={{ marginBottom: '2rem' }}>1:1 Inquiry</h1>
+        <h1 style={{ marginBottom: '2rem' }}>1:1문의</h1>
         <TwoCardLayout />
       </div>
     </div>

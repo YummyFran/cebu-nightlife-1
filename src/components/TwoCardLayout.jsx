@@ -1,15 +1,21 @@
 import React from 'react';
 import './TwoCardLayout.css';
+import Card from './Card';
+
 
 const TwoCardLayout = () => {
   return (
     <div className="two-card-container">
-      <div className="card">
-        <div className="label-box">Label</div>
-      </div>
-      <div className="card">
-        <div className="label-box">Label</div>
-      </div>
+      <Card 
+        title="Details"
+        description="About Details"
+        image='src/assets/detail_example.jpg'
+      />
+      <Card 
+        title="Schedule"
+        description="About Schedule"
+        image='src/assets/detail_example.jpg'
+      />
     </div>
   );
 };

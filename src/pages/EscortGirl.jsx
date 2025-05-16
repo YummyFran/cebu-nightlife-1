@@ -15,7 +15,7 @@ const EscortGirl = () => {
     >
       {/* Wrapper matches card layout max-width */}
       <div style={{ width: '100%', maxWidth: 'var(--max-width)' }}>
-        <h1 style={{ marginBottom: '2rem' }}>Cebu Escort Girls</h1>
+        <h1 style={{ marginBottom: '2rem' }}>세부에스코트걸</h1>
         <TwoCardLayout />
       </div>
     </div>
