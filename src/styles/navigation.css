@@ -12,7 +12,6 @@
         align-items: center;
         justify-content: space-between;
         padding: 1rem;
-        padding-inline: var(--side-margin);
         gap: 0.75rem;
     
         .logo {

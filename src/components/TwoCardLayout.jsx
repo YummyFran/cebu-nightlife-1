@@ -1,20 +1,15 @@
 import React from 'react';
-import './TwoCardLayout.css';
+import '../styles/twocardlayout.css'
 import Card from './Card';
 
-const TwoCardLayout = () => {
+const TwoCardLayout = ({ cards = [] }) => {
   return (
     <div className="two-card-container">
-      <div className="card">
-        <div className="label-box">
-          <Card title={"Night Project"} description={"chuhcus"} url={"dsada"}/>
-        </div>
-      </div>
-      <div className="card">
-        <div className="label-box">
-          <Card title={"Day Project"}/>
-        </div>
-      </div>
+      {
+        cards.map((card, index) => (
+          <Card key={index} title={card.title} description={card.description} imageUrl={card.imageUrl} />
+        ))
+      }
     </div>
   );
 };

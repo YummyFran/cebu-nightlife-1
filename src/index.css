@@ -17,9 +17,19 @@
     --accent-color: #eb452f;
 }
 
-main {
+main:not(#homepage) {
     background-color: rgb(223, 223, 223);
     min-height: 100vh;
+    padding-top: 4rem;
+    padding-inline: var(--side-margin);
+
+    .container {
+        margin-inline: auto;
+    }
+
+    h1 {
+        padding: 1rem 0;
+    }
 }
 
 /*  =============================
@@ -28,5 +38,12 @@ main {
 @media (min-width: 768px) {
     :root {
         --side-margin: 2rem;
+    }
+
+    main:not(#homepage) {
+        .container {
+            max-width: var(--max-width);
+            padding: 0 1rem;
+        }
     }
 }

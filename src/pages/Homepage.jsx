@@ -14,7 +14,7 @@ const carouselImages = [
 
 const Homepage = () => {
   return (
-    <main>
+    <main id='homepage'>
         <Carousel images={carouselImages}>
             <header className="hero">
                 <h1 className='heading'>세부의 밤을 즐기는 가장 완벽한 방법</h1>

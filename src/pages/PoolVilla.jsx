@@ -1,24 +1,15 @@
 import React from 'react';
 import TwoCardLayout from '../components/TwoCardLayout';
+import cardsData from '../data/cards.json'
 
 const PoolVilla = () => {
   return (
-    <div
-      style={{
-        paddingTop: '5rem', // Space below fixed nav
-        paddingInline: 'var(--side-margin)',
-        minHeight: '100vh',
-        display: 'flex',
-        flexDirection: 'column',
-        alignItems: 'center',
-      }}
-    >
-      {/* Wrapper matches card layout max-width */}
-      <div style={{ width: '100%', maxWidth: 'var(--max-width)' }}>
-        <h1 style={{ marginBottom: '2rem' }}>세부풀빌라</h1>
-        <TwoCardLayout />
-      </div>
-    </div>
+    <main>
+      <div className="container">
+        <h1 className='heading'>세부풀빌라</h1>
+        <TwoCardLayout cards={cardsData.poolvilla}/>  
+      </div> 
+    </main>
   );
 };
 
