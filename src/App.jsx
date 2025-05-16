@@ -16,8 +16,13 @@ function App() {
         <Routes>
           <Route path="/" element={<MainLayout />}>
             <Route index element={<Homepage />} />
-            <Route path='poolvilla' element={<PoolVilla />} />
+
+            <Route path='poolvilla'>
+              <Route index element={<PoolVilla />}/>
+            </Route>
+
             <Route path='escortgirl' element={<EscortGirl />} />
+
             <Route path='golf' element={<Golf />} />
             <Route path='nightlife' element={<NightLife />} />
             <Route path='inquiry' element={<Inquiry />} />

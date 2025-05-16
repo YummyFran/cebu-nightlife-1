@@ -14,7 +14,7 @@ const Navigation = () => {
   return (
     <div className="navigation-bar">
         <nav className='nav-links'>
-            <NavLink className="logo" to={'/'}>세부밤문화No.1</NavLink>
+            <NavLink className="logo" to={'/'}>세부밤문화<span>No.1</span></NavLink>
             <NavLink to={'/poolvilla'} className={({isActive}) => isActive ? 'active' : ''}>세부풀빌라</NavLink>
             <NavLink to={'/escortgirl'} className={({isActive}) => isActive ? 'active' : ''}>세부에스코트걸</NavLink>
             <NavLink to={'/golf'} className={({isActive}) => isActive ? 'active' : ''}>세부골프</NavLink>

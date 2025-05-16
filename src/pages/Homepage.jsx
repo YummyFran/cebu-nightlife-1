@@ -7,12 +7,6 @@ const carouselImages = [
     src: 'src/assets/banner1.jpg',
     position: "right"
   }, {
-    src: 'src/assets/banner2.jpg',
-    position: "center"
-  }, {
-    src: 'src/assets/banner3.jpg',
-    position: "center"
-  }, {
     src: 'src/assets/banner4.jpg',
     position: "center"
   }
