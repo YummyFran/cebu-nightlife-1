@@ -27,6 +27,7 @@ function App() {
             <Route path='nightlife' element={<NightLife />} />
             <Route path='inquiry' element={<Inquiry />} />
           </Route>
+          
         </Routes>
       </HashRouter>
     </>
