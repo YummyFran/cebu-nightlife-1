@@ -1,14 +1,16 @@
 {
     "poolvilla": [
         { 
-            "title": "What are the Cebu Pool Villa Package & Cebu Emperor Tour?", 
-            "description": "Testing 101", 
-            "image": ""
-        }, 
-        { 
             "title": "Test 101", 
             "description": "Testing 101", 
-            "image": ""
+            "imageUrl": "",
+            "slug": "details"
+        }, 
+        { 
+            "title": "Test 102", 
+            "description": "Testing 102", 
+            "imageUrl": "",
+            "slug": "schedule"
         }
     ],
 
