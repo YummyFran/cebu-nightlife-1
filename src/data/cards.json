@@ -1,16 +1,15 @@
 {
     "poolvilla": [
         { 
-            "title": "Test 101", 
-            "description": "Testing 101", 
-            "imageUrl": "",
+            "title": "세부풀빌라패키지 & 세부황제패키지", 
+            "imageUrl": "src/assets/PoolVilla1.jpg",
+            "imagePosition": "top",
             "slug": "details"
         }, 
         { 
-            "title": "Test 102", 
-            "description": "Testing 102", 
-            "imageUrl": "",
-            "slug": "schedule"
+            "title": "3박5일 풀빌라패키지 (황제투어) \n 4인기준 포함사항 및 일정표", 
+            "imageUrl": "src/assets/PoolVilla2.jpg",
+            "imagePosition": "top"
         }
     ],
 

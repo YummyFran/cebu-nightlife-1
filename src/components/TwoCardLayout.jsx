@@ -7,7 +7,13 @@ const TwoCardLayout = ({ cards = [] }) => {
     <div className="two-card-container">
       {
         cards.map((card, index) => (
-          <Card key={index} title={card.title} description={card.description} imageUrl={card.imageUrl} slug={card.slug}/>
+          <Card key={index} 
+          title={card.title} 
+          description={card.description} 
+          imageUrl={card.imageUrl} 
+          imagePosition={card.imagePosition}
+          slug={card.slug}
+          />
         ))
       }
     </div>
