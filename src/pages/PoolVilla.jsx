@@ -6,7 +6,7 @@ const PoolVilla = () => {
   return (
     <main>
       <div className="container">
-        <h1 className='heading'>세부풀빌라</h1>
+        <h1 className='heading'>세부풀빌라패키지 & 세부황제패키지</h1>
         <TwoCardLayout cards={cardsData.poolvilla}/>  
       </div> 
     </main>
