@@ -6,7 +6,27 @@ import EscortGirl from './pages/EscortGirl'
 import Golf from './pages/Golf'
 import NightLife from './pages/NightLife'
 import Inquiry from './pages/Inquiry'
+import React from 'react'
+import CardPages from './pages/CardPages'
 
+const categories = [
+  {
+    category: 'poolvilla',
+    element: PoolVilla
+  },{
+    category: 'escortgirl',
+    element: EscortGirl
+  },{
+    category: 'golf',
+    element: Golf
+  },{
+    category: 'nightlife',
+    element: NightLife
+  },{
+    category: 'inquiry',
+    element: Inquiry
+  }
+]  
 
 function App() {
 
@@ -16,16 +36,14 @@ function App() {
         <Routes>
           <Route path="/" element={<MainLayout />}>
             <Route index element={<Homepage />} />
-
-            <Route path='poolvilla'>
-              <Route index element={<PoolVilla />}/>
-            </Route>
-
-            <Route path='escortgirl' element={<EscortGirl />} />
-
-            <Route path='golf' element={<Golf />} />
-            <Route path='nightlife' element={<NightLife />} />
-            <Route path='inquiry' element={<Inquiry />} />
+            {
+              categories.map((cat, i) => (
+                <Route key={`${cat.slug}-slug`} path={cat.category} >
+                  <Route index element={React.createElement(cat.element)} />
+                  <Route path={':slug'} element={<CardPages />}/>
+                </Route>
+              ))
+            }
           </Route>
           
         </Routes>
