@@ -5,7 +5,7 @@ import PoolVillaDetails from "../pages/PoolVillaDetails"
 const pagesData = {
     poolvilla: {
         // slug: PageToRender (make sure it's imported above)
-        details: PoolVillaDetails
+        details: PoolVillaDetails,
     },
     escortgirl: {
         
