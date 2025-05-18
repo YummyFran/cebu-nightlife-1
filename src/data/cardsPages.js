@@ -5,7 +5,6 @@ const pagesData = {
     poolvilla: {
         details: PoolVillaDetails,
         schedule: PoolVillaSchedule
-
     },
     escortgirl: {
         
