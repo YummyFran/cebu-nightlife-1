@@ -1,11 +1,10 @@
-// import PageToRender from '../pages/PageToRender'
-
+import PoolVillaSchedule from "../pages/PoolVillaSchedule"
 import PoolVillaDetails from "../pages/PoolVillaDetails"
 
 const pagesData = {
     poolvilla: {
-        // slug: PageToRender (make sure it's imported above)
         details: PoolVillaDetails,
+        schedule: PoolVillaSchedule
     },
     escortgirl: {
         
