@@ -53,10 +53,9 @@ main:not(#homepage) {
         width: 5rem;
         aspect-ratio: 1;
 
-        img {
-            width: 100%;
-            height: 100%;
-        }
+    h1 {
+        padding: 3rem 0;
+        text-align: center ;
     }
 }
 
