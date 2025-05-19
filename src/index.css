@@ -52,6 +52,7 @@ main:not(#homepage) {
     & > * {
         width: 5rem;
         aspect-ratio: 1;
+    }
 
     h1 {
         padding: 3rem 0;
