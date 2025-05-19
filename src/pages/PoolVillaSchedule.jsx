@@ -1,5 +1,5 @@
 import React from 'react'
-// import '../styles/poolVillaSchedule.css'
+import '../styles/poolVillaSchedule.css'
 import KakaoBtn from '../components/KakaoBtn'
 import TelegramBtn from '../components/Telegrambtn'
 const PoolVillaSchdule= () => {

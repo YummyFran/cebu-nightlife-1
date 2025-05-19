@@ -1,7 +1,7 @@
 .two-card-container {
   display: flex;
   flex-direction: column; /* Stack by default (mobile-first) */
-  gap: 1rem;
+  gap: 3rem;
   margin: 0 var(--side-margin);
   max-width: var(--max-width);
   width: 100%;

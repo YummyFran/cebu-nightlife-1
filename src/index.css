@@ -18,6 +18,7 @@
 }
 
 main:not(#homepage) {
+    
     background-color: rgb(223, 223, 223);
     min-height: 100vh;
     padding-top: 4rem;
@@ -28,7 +29,8 @@ main:not(#homepage) {
     }
 
     h1 {
-        padding: 1rem 0;
+        padding: 3rem 0;
+        text-align: center ;
     }
 }
 

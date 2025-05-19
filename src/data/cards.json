@@ -15,18 +15,66 @@
     ],
 
     "escortgirl": [
+        { 
+            "title": "escortgirl", 
+            "imageUrl": "src/assets/PoolVilla1.jpg",
+            "imagePosition": "top",
+            "slug": "details"
+        }, 
+        { 
+            "title": "escortgirl 2nd card", 
+            "imageUrl": "src/assets/PoolVilla2.jpg",
+            "imagePosition": "top",
+            "slug": "schedule" 
+        }
 
     ],
 
     "golf": [
+        { 
+            "title": "golf", 
+            "imageUrl": "src/assets/PoolVilla1.jpg",
+            "imagePosition": "top",
+            "slug": "details"
+        }, 
+        { 
+            "title": "golf 2nd card", 
+            "imageUrl": "src/assets/PoolVilla2.jpg",
+            "imagePosition": "top",
+            "slug": "schedule" 
+        }
 
     ],
 
     "nightlife": [
+        { 
+            "title": "nightlife", 
+            "imageUrl": "src/assets/PoolVilla1.jpg",
+            "imagePosition": "top",
+            "slug": "details"
+        }, 
+        { 
+            "title": "nightlife 2nd card", 
+            "imageUrl": "src/assets/PoolVilla2.jpg",
+            "imagePosition": "top",
+            "slug": "schedule" 
+        }
 
     ],
 
     "inquiry": [
+        { 
+            "title": "inquiry", 
+            "imageUrl": "src/assets/PoolVilla1.jpg",
+            "imagePosition": "top",
+            "slug": "details"
+        }, 
+        { 
+            "title": "inquiry 2nd card", 
+            "imageUrl": "src/assets/PoolVilla2.jpg",
+            "imagePosition": "top",
+            "slug": "schedule" 
+        }
 
     ]
 }
