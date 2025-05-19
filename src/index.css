@@ -13,20 +13,45 @@
     --side-margin: 1rem;
     --max-width: 1000px;
 
-    --primary-color: white;
+    --primary-color: #fcfcfc;
     --accent-color: #fa0101;
 }
 
 main:not(#homepage) {
-    
-    background-color: rgb(223, 223, 223);
+    background-color: var(--primary-color);
     min-height: 100vh;
     padding-top: 4rem;
     padding-inline: var(--side-margin);
 
     .container {
         margin-inline: auto;
+        color: #333;
+        text-align: center;
+
+        .heading {
+            padding: 1rem;
+            text-align: center;
+            font-size: 1.8rem;
+        }
+
+        p {
+            font-weight: 600;
+        }
+
+        img {
+            margin: auto
+        }
     }
+}
+
+.call-to-actions {
+    display: flex;
+    gap: 5rem;
+    justify-content: center;
+
+    & > * {
+        width: 5rem;
+        aspect-ratio: 1;
 
     h1 {
         padding: 3rem 0;
@@ -46,6 +71,15 @@ main:not(#homepage) {
         .container {
             max-width: var(--max-width);
             padding: 0 1rem;
+
+            .heading {
+                font-size: 1.5rem;
+                margin-bottom: 1rem;
+            }
+            
+            p, li {
+                font-size: 1.1rem;
+            }
         }
     }
 }

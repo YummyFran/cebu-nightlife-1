@@ -2,7 +2,7 @@ import React from 'react'
 
 const ContextImageSection = ({ context = '', image = {} }) => {
   return (
-    <section>
+    <section className='context-image'>
         <div className="context">
             {
                 context.split('.').map((line, index) => (

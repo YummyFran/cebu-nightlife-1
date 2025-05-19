@@ -1,5 +1,3 @@
-import React from "react";
-import "../styles/card.css";
 import { useNavigate } from "react-router-dom";
 
 const Card = ({ title, description, imageUrl, imagePosition, slug}) => {
