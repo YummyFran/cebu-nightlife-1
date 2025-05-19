@@ -1,12 +1,13 @@
 import React from 'react'
-// import '../styles/poolVillaSchedule.css'
 import KakaoBtn from '../components/KakaoBtn'
 import TelegramBtn from '../components/Telegrambtn'
+import '../styles/poolVillaSchedule.css'
+
 const PoolVillaSchdule= () => {
   return (
-    <main className='HomeSchedule'>
-        <div className="container-schedule">
-            <h1>3박5일 풀빌라 패키지&황제투어 4인기준 포함사항 & 일정표</h1>
+    <main className='schedule'>
+        <div className="container">
+            <h1 className='heading'>3박5일 풀빌라 패키지&황제투어 4인기준 포함사항 & 일정표</h1>
             <section>
                 <p>1. 전 일정 조/중/석 식사 포함 (석식: 풀빌라 바베큐파티 1회 포함)</p>
                 <p>2. 전 일정 차량 픽업/드롭</p>
@@ -17,7 +18,7 @@ const PoolVillaSchdule= () => {
                 <p>7. 세부 시티투어 & 카지노 탐방 & 개인 쇼핑 시간<br/><br/></p>
             </section>
             <div className="image-container">
-            <img src="src/assets/Schdule1.jpg" alt="풀빌라 이미지" />
+                <img src="src/assets/Schdule1.jpg" alt="풀빌라 이미지" />
             </div>
             <section>
                 <h2>1일차</h2>

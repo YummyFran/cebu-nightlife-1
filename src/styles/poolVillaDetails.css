@@ -1,0 +1,35 @@
+main.details {
+    background-color: #f9f9f9;
+    font-family: 'Segoe UI', sans-serif;
+    
+    .container {
+        /* padding: 2rem; */
+    }
+
+  p {
+    font-size: 1rem;
+    line-height: 1.6;
+  }
+
+  section.context-image {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 2rem;
+    margin-bottom: 2rem;
+
+    .image {
+        max-width: max(30vw, 300px);  
+        flex: 1;
+        overflow: hidden;
+        margin: auto;
+
+        img {
+            height: 100%;
+            width: 100%;
+            object-fit: contain;
+            border-radius: 0.5rem;
+        }
+    }
+  }
+}
