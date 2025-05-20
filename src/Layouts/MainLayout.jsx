@@ -1,6 +1,6 @@
 import { Outlet } from 'react-router-dom'
 import Navigation from '../components/Navigation'
-import CTAButtons from '../components/CTAButtons'
+import '../styles/blogs.css'
 
 const MainLayout = () => {
   return (

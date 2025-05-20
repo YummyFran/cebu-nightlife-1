@@ -1,6 +1,4 @@
-import React from 'react'
-import KakaoBtn from '../components/KakaoBtn'
-import TelegramBtn from '../components/Telegrambtn'
+
 const InquiryDetails = () => {
   return (
     <main className='HomeSchedule'>

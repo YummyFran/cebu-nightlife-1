@@ -5,13 +5,16 @@ const ContextImageSection = ({ context = '', image = {} }) => {
     <section className='context-image'>
         <div className="context">
             {
-                context.split('.').map((line, index) => (
-                    <p key={index}>{line}</p>
+                context.split('\n').map((line, index) => (
+                    <p key={index} className={line.includes('[r]') ? "red" : ""}>{line.replace("[r]", "")}</p>
                 ))
             }
         </div>
         <div className="image">
-            <img src={`src/assets/${image.src}`} alt={image.alt} />
+            {
+                !!image.src &&
+                <img src={`src/assets/${image.src}`} alt={image.alt} />
+            }
         </div>
     </section>
   )

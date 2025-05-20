@@ -1,12 +1,8 @@
-import React from 'react'
-import '../styles/poolVillaSchedule.css'
-import KakaoBtn from '../components/KakaoBtn'
-import TelegramBtn from '../components/Telegrambtn'
-import '../styles/poolVillaSchedule.css'
+
 
 const PoolVillaSchdule= () => {
   return (
-    <main className='schedule'>
+    <main className='blog schedule'>
         <div className="container">
             <h1 className='heading'>3박5일 풀빌라 패키지&황제투어 4인기준 포함사항 & 일정표</h1>
             <section>

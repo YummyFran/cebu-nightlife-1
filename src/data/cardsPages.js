@@ -1,6 +1,6 @@
 import PoolVillaSchedule from "../pages/PoolVillaSchedule"
 import PoolVillaDetails from "../pages/PoolVillaDetails"
-import EscortGirlSchedule from "../pages/EscortGirlSchedule"
+import EscortGirlSafety from "../pages/EscortGirlSafety"
 import EscortGirlGuides from "../pages/EscortGirlGuides"
 import GolfDetails from "../pages/GolfDetails"
 import GolfSchedule from "../pages/GolfSchedule"
@@ -16,7 +16,7 @@ const pagesData = {
     },
     escortgirl: {
         "guide-to-cebu-escort-services": EscortGirlGuides,
-        "is-the-philippines-safe-to-visit": EscortGirlSchedule
+        "is-the-philippines-safe-to-visit": EscortGirlSafety
     },
     golf: {
         details: GolfDetails,
