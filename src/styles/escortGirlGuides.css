@@ -1,0 +1,43 @@
+main.guides {
+    
+    p {
+        font-size: 1rem;
+        line-height: 1.6;
+    }
+
+    h2, h3, h4, h5 {
+        color: #2b2b2b;
+        margin-top: 1.5rem;
+        font-size: 1.25rem;
+        border-bottom: 2px solid #e0e0e0;
+        padding-bottom: 1rem;
+        margin-bottom: .8rem;
+    }
+
+    section.context-image {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        gap: 2rem;
+        margin-bottom: 2rem;
+
+        .image {
+            max-width: max(30vw, 300px);  
+            flex: 1;
+            overflow: hidden;
+            margin: auto;
+
+            img {
+                height: 100%;
+                width: 100%;
+                object-fit: contain;
+                border-radius: 0.5rem;
+            }
+        }
+    }
+
+    section.red {
+        color: var(--accent-color);
+        padding: 2rem;
+    }
+}

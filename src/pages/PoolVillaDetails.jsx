@@ -1,9 +1,5 @@
-import React from 'react'
 import ContextImageSection from '../components/ContextImageSection'
 import '../styles/poolVillaDetails.css'
-import KakaoBtn from '../components/KakaoBtn'
-import TelegramBtn from '../components/Telegrambtn'
-import CTAButtons from '../components/CTAButtons'
 
 const PoolVillaDetails = () => {
   return (
