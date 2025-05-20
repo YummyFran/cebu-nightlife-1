@@ -6,7 +6,7 @@ const Inquiry = () => {
   return (
     <main>
       <div className="container">
-        <h1>1:1문의</h1>
+        <h1 className='heading'>1:1문의</h1>
         <TwoCardLayout cards={cardsData.inquiry}/>
       </div> 
     </main>

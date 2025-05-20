@@ -6,7 +6,7 @@ const NightLife = () => {
   return (
     <main> 
       <div className="container">
-        <h1>세부밤문화정보</h1>
+        <h1 className='heading'>세부밤문화정보</h1>
         <TwoCardLayout cards={cardsData.nightlife}/>
       </div>
     </main>
