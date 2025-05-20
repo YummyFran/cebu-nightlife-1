@@ -15,8 +15,8 @@ const pagesData = {
         schedule: PoolVillaSchedule
     },
     escortgirl: {
-        details: EscortGirlDetails,
-        schedule: EscortGirlSchedule
+        "guide-to-cebu-escort-services": EscortGirlDetails,
+        "is-the-philippines-safe-to-visit": EscortGirlSchedule
     },
     golf: {
         details: GolfDetails,

@@ -1,14 +1,14 @@
+import React from 'react'
 import { Outlet } from 'react-router-dom'
-import Navigation from '../components/Navigation'
 import CTAButtons from '../components/CTAButtons'
 
-const MainLayout = () => {
+const CTALayout = () => {
   return (
     <div>
-        <Navigation />
         <Outlet />
+        <CTAButtons />
     </div>
   )
 }
 
-export default MainLayout
+export default CTALayout

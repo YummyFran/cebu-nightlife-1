@@ -3,7 +3,7 @@
         { 
             "title": "세부풀빌라패키지 & 세부황제투어란?", 
             "imageUrl": "src/assets/PoolVilla1.jpg",
-            "imagePosition": "top",
+            "imagePosition": "bottom",
             "slug": "details"
         }, 
         { 
@@ -16,30 +16,29 @@
 
     "escortgirl": [
         { 
-            "title": "escortgirl", 
-            "imageUrl": "src/assets/PoolVilla1.jpg",
+            "title": "세부에스코트걸을 이용하는2가지방법", 
+            "imageUrl": "src/assets/EscortGirl1.jpg",
             "imagePosition": "top",
-            "slug": "details"
+            "slug": "guide-to-cebu-escort-services"
         }, 
         { 
-            "title": "escortgirl 2nd card", 
-            "imageUrl": "src/assets/PoolVilla2.jpg",
+            "title": "필리핀 치안 안전한가요?", 
+            "imageUrl": "src/assets/EscortGirl2.jpg",
             "imagePosition": "top",
-            "slug": "schedule" 
+            "slug": "is-the-philippines-safe-to-visit" 
         }
-
     ],
 
     "golf": [
         { 
             "title": "golf", 
-            "imageUrl": "src/assets/PoolVilla1.jpg",
+            "imageUrl": "",
             "imagePosition": "top",
             "slug": "details"
         }, 
         { 
             "title": "golf 2nd card", 
-            "imageUrl": "src/assets/PoolVilla2.jpg",
+            "imageUrl": "",
             "imagePosition": "top",
             "slug": "schedule" 
         }
@@ -49,13 +48,13 @@
     "nightlife": [
         { 
             "title": "nightlife", 
-            "imageUrl": "src/assets/PoolVilla1.jpg",
+            "imageUrl": "",
             "imagePosition": "top",
             "slug": "details"
         }, 
         { 
             "title": "nightlife 2nd card", 
-            "imageUrl": "src/assets/PoolVilla2.jpg",
+            "imageUrl": "",
             "imagePosition": "top",
             "slug": "schedule" 
         }
@@ -65,13 +64,13 @@
     "inquiry": [
         { 
             "title": "inquiry", 
-            "imageUrl": "src/assets/PoolVilla1.jpg",
+            "imageUrl": "",
             "imagePosition": "top",
             "slug": "details"
         }, 
         { 
             "title": "inquiry 2nd card", 
-            "imageUrl": "src/assets/PoolVilla2.jpg",
+            "imageUrl": "",
             "imagePosition": "top",
             "slug": "schedule" 
         }

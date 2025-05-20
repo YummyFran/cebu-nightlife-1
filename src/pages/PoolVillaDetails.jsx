@@ -3,6 +3,7 @@ import ContextImageSection from '../components/ContextImageSection'
 import '../styles/poolVillaDetails.css'
 import KakaoBtn from '../components/KakaoBtn'
 import TelegramBtn from '../components/Telegrambtn'
+import CTAButtons from '../components/CTAButtons'
 
 const PoolVillaDetails = () => {
   return (
@@ -142,10 +143,6 @@ const PoolVillaDetails = () => {
                 <p>필리핀 치안,밤문화 불안감 등은 접어두시고</p>
                 <p>환상의섬 세부에서 힐링여행` 어떠신가요?</p>
             </section>
-            <div className="btns">
-                <KakaoBtn/>
-                <TelegramBtn/>
-            </div>
         </div>
     </main>
   )

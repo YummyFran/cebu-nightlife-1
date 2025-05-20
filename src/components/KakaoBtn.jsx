@@ -1,15 +1,15 @@
-import React from 'react';
+import KakaoImage from '../assets/cta-kakao-btn.jpg'
 
 const KakaoBtn = () => {
   return (
-    <div style={{ textAlign: 'center', marginTop: '1rem' }}>
+    <div className='kakao cta-btn'>
       <a
         href="https://pf.kakao.com/_your_kakao_channel_id"
         target="_blank"
         rel="noopener noreferrer"
       >
         <img
-          src="https://developers.kakao.com/assets/img/about/logos/kakaotalksharing/kakaotalk_sharing_btn_medium.png"
+          src={KakaoImage}
           alt="KakaoTalk Chat"
         />
       </a>

@@ -6,7 +6,7 @@ const EscortGirl = () => {
   return (
     <main> 
       <div className="container">
-        <h1 className='heading'>세부에스코트걸</h1>
+        <h1 className='heading'>세부에스코트걸 & 에코걸</h1>
         <TwoCardLayout cards={cardsData.escortgirl}/>
       </div>
     </main>

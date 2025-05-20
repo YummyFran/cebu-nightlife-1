@@ -6,10 +6,7 @@ const InquiryDetails = () => {
     <main className='HomeSchedule'>
         <div className="container-schedule">
             
-            <div className="btns">
-                <KakaoBtn/>
-                <TelegramBtn/>
-            </div>
+            
         </div>
     </main>
   )

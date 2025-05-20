@@ -8,6 +8,8 @@ import NightLife from './pages/NightLife'
 import Inquiry from './pages/Inquiry'
 import React from 'react'
 import CardPages from './pages/CardPages'
+import CTALayout from './Layouts/CTALayout'
+import ScrollToTop from './components/ScrollToTop'
 
 const categories = [
   {
@@ -33,12 +35,13 @@ function App() {
   return (
     <>
       <HashRouter>
+        <ScrollToTop />
         <Routes>
           <Route path="/" element={<MainLayout />}>
             <Route index element={<Homepage />} />
             {
               categories.map((cat, i) => (
-                <Route key={`${cat.slug}-slug`} path={cat.category} >
+                <Route key={`${cat.slug}-slug`} path={cat.category} element={<CTALayout />}>
                   <Route index element={React.createElement(cat.element)} />
                   <Route path={':slug'} element={<CardPages />}/>
                 </Route>

@@ -51,10 +51,6 @@ const PoolVillaSchdule= () => {
                     <p>세부 로컬비키니바 체험</p>
                     <p>공항 샌딩 / 공항 드랍 / 한국 귀국<br/><br/></p>
             </section>
-            <div className="btns">
-                <KakaoBtn/>
-                <TelegramBtn/>
-            </div>
         </div>
     </main>
   )
