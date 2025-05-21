@@ -6,7 +6,7 @@ const Golf = () => {
   return (
     <main>
       <div className="container">
-        <h1 className='heading'>세부골프</h1>
+        <h1 className='heading'>세부 골프패키지 & 혼체골프패키지</h1>
         <TwoCardLayout cards={cardsData.golf}/>
       </div> 
     </main>

@@ -31,16 +31,16 @@
 
     "golf": [
         { 
-            "title": "golf", 
-            "imageUrl": "",
+            "title": "세부황제골프패키지 포함사항/일정", 
+            "imageUrl": "src/assets/Golf1.jpg",
             "imagePosition": "top",
-            "slug": "details"
+            "slug": "cebu-emperor-golf-package-details-schedule"
         }, 
         { 
-            "title": "golf 2nd card", 
-            "imageUrl": "",
+            "title": "세부골프클럽소개 & 세부골프TIP", 
+            "imageUrl": "src/assets/Golf2.jpg",
             "imagePosition": "top",
-            "slug": "schedule" 
+            "slug": "cebu-golf-club-guide-and-tips" 
         }
 
     ],
