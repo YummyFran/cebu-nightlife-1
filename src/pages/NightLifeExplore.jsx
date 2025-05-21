@@ -1,5 +1,5 @@
 
-const NightLifeSchedule = () => {
+const NightLifeExplore = () => {
   return (
     <main className='HomeSchedule'>
         <div className="container-schedule">
@@ -10,4 +10,4 @@ const NightLifeSchedule = () => {
   )
 }
 
-export default NightLifeSchedule
+export default NightLifeExplore

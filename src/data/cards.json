@@ -47,16 +47,22 @@
 
     "nightlife": [
         { 
-            "title": "nightlife", 
-            "imageUrl": "",
+            "title": "필리핀말 배우기 (Learn Filipino)", 
+            "imageUrl": "src/assets/Nightlife1.jpg",
             "imagePosition": "top",
-            "slug": "details"
+            "slug": "Learn-filipino"
         }, 
         { 
-            "title": "nightlife 2nd card", 
-            "imageUrl": "",
+            "title": "필리핀 방문문화 레이디보이 탐구 (Explore Filipino Nightlife & Ladyboys)", 
+            "imageUrl": "src/assets/Nightlife2.jpg",
             "imagePosition": "top",
-            "slug": "schedule" 
+            "slug": "filipino-nightlife-explore" 
+        },
+        { 
+            "title": "세부방문 TIP (Cebu Visit Tips)", 
+            "imageUrl": "src/assets/NightLife3.jpg",
+            "imagePosition": "top",
+            "slug": "cebu-visit-tips" 
         }
 
     ],

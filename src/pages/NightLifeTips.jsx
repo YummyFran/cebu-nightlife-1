@@ -1,5 +1,4 @@
-
-const NightLifeDetails = () => {
+const NightLifeTips = () => {
   return (
     <main className='HomeSchedule'>
         <div className="container-schedule">
@@ -9,5 +8,4 @@ const NightLifeDetails = () => {
     </main>
   )
 }
-
-export default NightLifeDetails
+export default NightLifeTips
