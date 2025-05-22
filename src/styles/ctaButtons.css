@@ -1,14 +1,14 @@
 .cta-buttons {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     gap: 5rem;
-    padding: 5rem;
+    padding: 2rem;
     border-top: 1px solid rgb(184, 184, 184);
     max-width: var(--max-width);
-    margin: 2rem auto;
+    margin: 2rem auto 0;
 
     .cta-btn {
-        max-height: 15rem;
         border-radius: 1rem;
         transition: 0.3s;
         
@@ -24,6 +24,18 @@
                 width: 100%;
                 object-fit: contain;
             }
+        }
+    }
+}
+
+@media (min-width: 768px) {
+    .cta-buttons {
+        flex-direction: row;
+        padding: 5rem;
+        gap: 5rem;
+
+        .cta-btn {
+            max-height: 15rem;
         }
     }
 }
