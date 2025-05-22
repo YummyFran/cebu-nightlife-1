@@ -1,4 +1,4 @@
-import { Routes, Route, HashRouter } from 'react-router-dom'
+import { Routes, Route, BrowserRouter } from 'react-router-dom'
 import Homepage from './pages/Homepage'
 import MainLayout from './Layouts/MainLayout'
 import PoolVilla from './pages/PoolVilla'
@@ -34,7 +34,7 @@ function App() {
 
   return (
     <>
-      <HashRouter>
+      <BrowserRouter>
         <ScrollToTop />
         <Routes>
           <Route path="/" element={<MainLayout />}>
@@ -50,7 +50,7 @@ function App() {
           </Route>
           
         </Routes>
-      </HashRouter>
+      </BrowserRouter>
     </>
   )
 }
