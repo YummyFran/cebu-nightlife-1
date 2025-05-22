@@ -1,13 +1,13 @@
-import React from 'react'
-import Banner from '../components/Banner'
 import Carousel from '../components/Carousel'
+import Banner1 from '../assets/banner1.jpg'
+import Banner2 from '../assets/banner2.jpg'
 
 const carouselImages = [
   {
-    src: 'src/assets/banner1.jpg',
+    src: Banner1,
     position: "right"
   }, {
-    src: 'src/assets/banner4.jpg',
+    src: Banner2,
     position: "center"
   }
 ]
