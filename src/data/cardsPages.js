@@ -4,11 +4,9 @@ import EscortGirlSafety from "../pages/EscortGirlSafety"
 import EscortGirlGuides from "../pages/EscortGirlGuides"
 import GolfPackage from "../pages/GolfPackage"
 import GolfTips from "../pages/GolfTips"
-import InquiryDetails from "../pages/InquiryDetails"
-import InquirySchedule from "../pages/InquirySchedule"
-import NightLifeExplore from "../pages/NightLifeExplore"
-import NightLifeTips from "../pages/NightLifeTips.jsx"
 import NightLifeLearn from "../pages/NightLifeLearn.jsx"
+import NightLifeExplore from "../pages/NightLifeExplore.jsx"
+import NightLifeBestTime from "../pages/NightLifeBestTime.jsx"
 
 
 const pagesData = {
@@ -25,15 +23,9 @@ const pagesData = {
         "cebu-golf-club-guide-and-tips": GolfTips
     },
     nightlife: {
-        "Learn-filipino": NightLifeLearn,
-        "filipino-nightlife-explore": NightLifeExplore,
-        "cebu-visit-tips" : NightLifeTips
-
-    },
-    inquiry: {
-        details: InquiryDetails,
-        schedule: InquirySchedule
-
+        "best-time-for-cebu-nightlife": NightLifeBestTime,
+        "learn-filipino": NightLifeLearn,
+        "exploring-filipino-nightlife-ladyboys" : NightLifeExplore
     }
 }
 

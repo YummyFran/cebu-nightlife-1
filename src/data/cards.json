@@ -47,38 +47,22 @@
 
     "nightlife": [
         { 
-            "title": "필리핀말 배우기 (Learn Filipino)", 
+            "title": "세부밤문화 가장 좋은시기는?", 
             "imageUrl": "src/assets/Nightlife1.jpg",
             "imagePosition": "top",
-            "slug": "Learn-filipino"
+            "slug": "best-time-for-cebu-nightlife"
         }, 
         { 
-            "title": "필리핀 방문문화 레이디보이 탐구 (Explore Filipino Nightlife & Ladyboys)", 
+            "title": "필리핀말 배우기", 
             "imageUrl": "src/assets/Nightlife2.jpg",
             "imagePosition": "top",
-            "slug": "filipino-nightlife-explore" 
+            "slug": "learn-filipino" 
         },
         { 
-            "title": "세부방문 TIP (Cebu Visit Tips)", 
+            "title": "필리핀 밤문화 레이디보이 탐구", 
             "imageUrl": "src/assets/NightLife3.jpg",
             "imagePosition": "top",
-            "slug": "cebu-visit-tips" 
-        }
-
-    ],
-
-    "inquiry": [
-        { 
-            "title": "inquiry", 
-            "imageUrl": "",
-            "imagePosition": "top",
-            "slug": "details"
-        }, 
-        { 
-            "title": "inquiry 2nd card", 
-            "imageUrl": "",
-            "imagePosition": "top",
-            "slug": "schedule" 
+            "slug": "exploring-filipino-nightlife-ladyboys" 
         }
 
     ]
