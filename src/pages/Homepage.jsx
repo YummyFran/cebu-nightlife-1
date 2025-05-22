@@ -1,6 +1,6 @@
 import Carousel from '../components/Carousel'
 import Banner1 from '../assets/banner1.jpg'
-import Banner2 from '../assets/banner2.jpg'
+import Banner2 from '../assets/banner4.jpg'
 
 const carouselImages = [
   {
