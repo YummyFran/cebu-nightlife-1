@@ -4,7 +4,7 @@ const KakaoBtn = () => {
   return (
     <div className='kakao cta-btn'>
       <a
-        href="https://pf.kakao.com/_your_kakao_channel_id"
+        href="https://pf.kakao.com/CEBUCOCO/chat"
         target="_blank"
         rel="noopener noreferrer"
       >

@@ -4,7 +4,7 @@ const TelegramBtn = () => {
   return (
     <div className='telegram cta-btn'>
       <a
-        href="https://t.me/your_telegram_username"
+        href="https://t.me/CEBUCOCO"
         target="_blank"
         rel="noopener noreferrer"
       >
