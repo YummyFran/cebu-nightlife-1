@@ -1,12 +1,39 @@
+import { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
+
+const images = import.meta.glob('../assets/*');
 
 const Card = ({ title, description, imageUrl, imagePosition, slug}) => {
   const navigate = useNavigate()
 
+  const [imgSrc, setImgSrc] = useState('')
+
+    useEffect(() => {
+        const loadImage = async () => {
+            const fileName = imageUrl.split("/").pop()
+            if (!fileName) return
+
+            const match = Object.entries(images).find(([path]) =>
+                path.endsWith(`/${fileName}`)
+            )
+
+            if (!match) {
+                console.warn(`Image not found for: ${fileName}`);
+                setImgSrc('')
+                return
+            }
+
+            const mod = await match[1]()
+
+            setImgSrc(mod.default)
+        }
+        loadImage()
+    }, [imageUrl])
+
   return (
     <div className="card" onClick={() => navigate(slug)}>
-      {imageUrl ? (
-        <img src={imageUrl} alt={title} className="card-image"
+      {imgSrc ? (
+        <img src={imgSrc} alt={title} className="card-image"
         style={{objectPosition: imagePosition}} />
       ) : (
         <div className="card-image-placeholder" />
