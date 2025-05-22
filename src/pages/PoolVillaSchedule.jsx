@@ -1,4 +1,4 @@
-
+import Sched1 from '../assets/Schdule1.jpg'
 
 const PoolVillaSchdule= () => {
   return (
@@ -15,7 +15,7 @@ const PoolVillaSchdule= () => {
                 <p>7. 세부 시티투어 & 카지노 탐방 & 개인 쇼핑 시간<br/><br/></p>
             </section>
             <div className="image-container">
-                <img src="src/assets/Schdule1.jpg" alt="풀빌라 이미지" />
+                <img src={Sched1} alt="풀빌라 이미지" />
             </div>
             <section>
                 <h2>1일차</h2>

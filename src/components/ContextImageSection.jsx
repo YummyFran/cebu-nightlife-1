@@ -1,6 +1,30 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
+
+const images = import.meta.glob('../assets/*');
 
 const ContextImageSection = ({ context = '', image = {} }) => {
+    const [imgSrc, setImgSrc] = useState('')
+
+    useEffect(() => {
+        const loadImage = async () => {
+            if (!image.src) return
+
+            const match = Object.entries(images).find(([path]) =>
+                path.endsWith(`/${image.src}`)
+            )
+
+            if (!match) {
+                setImgSrc('')
+                return
+            }
+
+            const mod = await match[1]()
+
+            setImgSrc(mod.default)
+        }
+        loadImage()
+    }, [image.src])
+
   return (
     <section className='context-image'>
         <div className="context">
@@ -20,8 +44,8 @@ const ContextImageSection = ({ context = '', image = {} }) => {
         </div>
         <div className="image">
             {
-                !!image.src &&
-                <img src={`src/assets/${image.src}`} alt={image.alt} />
+                imgSrc &&
+                <img src={imgSrc} alt={image.alt || ''} />
             }
         </div>
     </section>
