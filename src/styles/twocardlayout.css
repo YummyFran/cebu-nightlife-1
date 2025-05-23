@@ -39,9 +39,10 @@
             padding: 16px;
 
             .card-title {
-                font-size: 1.1rem;
+                font-size: 0.9rem;
                 font-weight: 600;
                 margin: 0 0 8px;
+
               }
 
             .card-description {
