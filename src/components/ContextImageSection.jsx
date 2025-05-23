@@ -45,7 +45,7 @@ const ContextImageSection = ({ context = '', image = {} }) => {
         <div className="image">
             {
                 imgSrc &&
-                <img src={imgSrc} alt={image.alt || ''} />
+                <img src={imgSrc} alt={image.alt || ''} loading='lazy' width={370} height={370}/>
             }
         </div>
     </section>

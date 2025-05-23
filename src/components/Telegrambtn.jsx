@@ -11,6 +11,9 @@ const TelegramBtn = () => {
         <img
           src={TelegramImage}
           alt="Telegram Chat"
+          loading='lazy'
+          width={380}
+          height={240}
         />
       </a>
     </div>

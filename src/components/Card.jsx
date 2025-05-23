@@ -33,7 +33,8 @@ const Card = ({ title, description, imageUrl, imagePosition, slug}) => {
   return (
     <div className="card" onClick={() => navigate(slug)}>
       {imgSrc ? (
-        <img src={imgSrc} alt={title} className="card-image"
+        <img src={imgSrc} alt={title} width={300} height={266}
+        className="card-image"
         style={{objectPosition: imagePosition}} />
       ) : (
         <div className="card-image-placeholder" />

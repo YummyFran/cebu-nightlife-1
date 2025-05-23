@@ -11,6 +11,9 @@ const KakaoBtn = () => {
         <img
           src={KakaoImage}
           alt="KakaoTalk Chat"
+          loading='lazy'
+          width={380}
+          height={240}
         />
       </a>
     </div>
