@@ -6,8 +6,8 @@
     left: 0;
     right: 0;
     z-index: 10;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
 
     .nav-links {
         display: flex;
