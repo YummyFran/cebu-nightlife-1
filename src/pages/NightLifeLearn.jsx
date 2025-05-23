@@ -1,10 +1,21 @@
+import { Helmet } from "react-helmet-async"
 import ContextImageSection from "../components/ContextImageSection"
+import { useLocation } from "react-router-dom"
 
 const NightLifeLearn = () => {
+  const { pathname } = useLocation()
   return (
     <main className='blog learn'>
+        <Helmet key={pathname}>
+            <title>필리핀말 배우기 | 세부밤문화No.1</title>  
+            <meta name="description" content="필리핀 세부 여행 전 필수! 세부아노 기초 회화 배우기 | 세부 밤문화NO.1이 알려주는 에코걸과 소통하는 꿀팁! 따갈로그어와 다른 세부 지역 사투리 ‘세부아노’ 기본 표현 정리. 현지 문화를 이해하고 더 깊은 여행을 위한 필리핀어 가이드. 밤문화 풀빌라 패키지와 함께 즐기는 특별한 세부 경험!" />
+            <meta property="og:title" content="필리핀말 배우기 | 세부밤문화No.1" />
+            <meta property="og:description" content="필리핀 세부 여행 전 필수! 세부아노 기초 회화 배우기 | 세부 밤문화NO.1이 알려주는 에코걸과 소통하는 꿀팁! 따갈로그어와 다른 세부 지역 사투리 ‘세부아노’ 기본 표현 정리. 현지 문화를 이해하고 더 깊은 여행을 위한 필리핀어 가이드. 밤문화 풀빌라 패키지와 함께 즐기는 특별한 세부 경험!" />
+            <meta property="og:image" content="https://cebu-nightlife-1.vercel.app/og-image.jpg" />
+        </Helmet>
+        
         <div className="container">
-            <h1>필리핀말 배우기</h1>
+            <h1 className="heading">필리핀말 배우기</h1>
             <ContextImageSection
               context={`             
                 ​안녕하세요

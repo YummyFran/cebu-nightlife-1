@@ -1,10 +1,22 @@
+import { Helmet } from "react-helmet-async"
 import ContextImageSection from "../components/ContextImageSection"
+import { useLocation } from "react-router-dom"
 
 const GolfTips = () => {
+  const {pathname} = useLocation()
+
   return (
     <main className='blog HomeSchedule'>
+        <Helmet key={pathname}>
+            <title>세부CC & 막탄 에어베이스CC | 세부밤문화No.1</title>  
+            <meta name="description" content="필리핀 세부 골프 투어 가이드 | 세부CC & 막탄 에어베이스CC 소개, 코스 특징, 라운드 꿀팁, 복장 규정부터 준비물까지! 휴양과 골프, 에코를 동시에 즐길 수 있는 낭만적인 세부 골프 여행 정보 제공. 자유로운 일정 조율과 한적한 플레이를 원하시는 골퍼분들께 추천드립니다." />
+            <meta property="og:title" content="세부CC & 막탄 에어베이스CC | 세부밤문화No.1" />
+            <meta property="og:description" content="필리핀 세부 골프 투어 가이드 | 세부CC & 막탄 에어베이스CC 소개, 코스 특징, 라운드 꿀팁, 복장 규정부터 준비물까지! 휴양과 골프, 에코를 동시에 즐길 수 있는 낭만적인 세부 골프 여행 정보 제공. 자유로운 일정 조율과 한적한 플레이를 원하시는 골퍼분들께 추천드립니다." />
+            <meta property="og:image" content="https://cebu-nightlife-1.vercel.app/og-image.jpg" />
+        </Helmet>
+        
         <div className="container">
-            <h1 className="heading">세부CC & 막탄 에어베이스CC </h1>
+            <h1 className="heading">세부CC & 막탄 에어베이스CC</h1>
             <ContextImageSection
               image={{
                 src: "tips1.jpg"

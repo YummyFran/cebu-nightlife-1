@@ -1,12 +1,25 @@
+import { Helmet } from "react-helmet-async"
 import ContextImageSection from "../components/ContextImageSection"
+import { useLocation } from "react-router-dom"
 
 const EscortGirlSafety = () => {
+  const { pathname } = useLocation()
   return (
     <main className='blog safety'>
+        <Helmet key={pathname}>
+            <title>필리핀 치안 안전한가요? | 세부밤문화No.1</title>  
+            <meta name="description" content="필리핀 세부 밤문화 치안, 과연 안전할까? 실제 사례와 주의사항, 믿을 수 있는 안전한 업체 선택법까지! 세부밤문화 No.1과 함께 안심하고 즐기는 세부 여행 가이드." />
+            <meta property="og:title" content="필리핀 치안 안전한가요? | 세부밤문화No.1" />
+            <meta property="og:description" content="필리핀 세부 밤문화 치안, 과연 안전할까? 실제 사례와 주의사항, 믿을 수 있는 안전한 업체 선택법까지! 세부밤문화 No.1과 함께 안심하고 즐기는 세부 여행 가이드." />
+            <meta property="og:image" content="https://cebu-nightlife-1.vercel.app/og-image.jpg" />
+        </Helmet>
+
         <div className="container">
-          <h1 className="heading">세부 밤문화 1등 세부밤문화 NO.1입니다^^</h1>
+          <h1 className="heading">필리핀 치안 안전한가요?</h1>
           <ContextImageSection
             context={`
+              안녕하세요
+              세부 밤문화 1등 세부밤문화 NO.1입니다^^
               세부 밤문화 여행객들이 가장 많이 하는 질문들 중 하나
               필리핀 세부 밤문화 치안상태는
               안전한가요?
