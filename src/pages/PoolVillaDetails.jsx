@@ -1,18 +1,15 @@
-import { Helmet } from 'react-helmet-async'
+
 import ContextImageSection from '../components/ContextImageSection'
-import { useLocation } from 'react-router-dom'
 
 const PoolVillaDetails = () => {
-    const { pathname } = useLocation()
   return (
     <main className='blog details'>
-        <Helmet key={pathname}>
-            <title>세부풀빌라패키지 & 세부황제투어란?| 세부밤문화No.1</title>  
-            <meta name="description" content="세부황제투어 & 풀빌라패키지로 럭셔리한 밤문화 여행을 즐겨보세요! 단독 가이드, 전용차량, 풀빌라, 무제한 식사, 호핑투어까지—all-in-one 고품격 세부밤문화의 진수를 경험해보세요." />
-            <meta property="og:title" content="세부풀빌라패키지 & 세부황제투어란? | 세부밤문화No.1" />
-            <meta property="og:description" content="세부황제투어 & 풀빌라패키지로 럭셔리한 밤문화 여행을 즐겨보세요! 단독 가이드, 전용차량, 풀빌라, 무제한 식사, 호핑투어까지—all-in-one 고품격 세부밤문화의 진수를 경험해보세요." />
-            <meta property="og:image" content="https://cebu-nightlife-1.vercel.app/og-image.jpg" />
-        </Helmet>
+        <title>세부풀빌라패키지 & 세부황제투어란?| 세부밤문화No.1</title>  
+        <meta name="description" content="세부황제투어 & 풀빌라패키지로 럭셔리한 밤문화 여행을 즐겨보세요! 단독 가이드, 전용차량, 풀빌라, 무제한 식사, 호핑투어까지—all-in-one 고품격 세부밤문화의 진수를 경험해보세요." />
+        <meta property="og:title" content="세부풀빌라패키지 & 세부황제투어란? | 세부밤문화No.1" />
+        <meta property="og:description" content="세부황제투어 & 풀빌라패키지로 럭셔리한 밤문화 여행을 즐겨보세요! 단독 가이드, 전용차량, 풀빌라, 무제한 식사, 호핑투어까지—all-in-one 고품격 세부밤문화의 진수를 경험해보세요." />
+        <meta property="og:image" content="https://cebu-nightlife-1.vercel.app/og-image.jpg" />
+
 
         <div className="container">
             <h1 className='heading'>세부풀빌라패키지 & 세부황제투어란?</h1>            

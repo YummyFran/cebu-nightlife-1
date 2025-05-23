@@ -1,22 +1,15 @@
-import React from 'react'
-import TwoCardLayout from '../components/TwoCardLayout'
-import cardsData from '../data/cards.json'
+
 import ContextImageSection from '../components/ContextImageSection';
-import { Helmet } from 'react-helmet-async';
-import { useLocation } from 'react-router-dom';
 
 const Inquiry = () => {
-  const { pathname } = useLocation()
 
   return (
     <main className='blog'>
-      <Helmet key={pathname}>
         <title>1:1문의 | 세부밤문화No.1</title>  
         <meta name="description" content="세부 밤문화 여행, 믿을 수 있는 1:1문의로 시작하세요! 안전하고 확실한 업체와 함께 필리핀 세부에서 잊지 못할 에코걸 힐링 여행을 즐겨보세요. 카카오톡 & 텔레그램 문의 가능!" />
         <meta property="og:title" content="1:1문의 | 세부밤문화No.1" />
         <meta property="og:description" content="세부 밤문화 여행, 믿을 수 있는 1:1문의로 시작하세요! 안전하고 확실한 업체와 함께 필리핀 세부에서 잊지 못할 에코걸 힐링 여행을 즐겨보세요. 카카오톡 & 텔레그램 문의 가능!" />
         <meta property="og:image" content="https://cebu-nightlife-1.vercel.app/og-image.jpg" />
-      </Helmet>
             
       <div className="container">
         <h1 className='heading'>1:1문의</h1>
