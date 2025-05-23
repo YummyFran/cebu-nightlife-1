@@ -3,7 +3,7 @@
     justify-content: center;
     flex-wrap: wrap;
     gap: 2rem;
-    margin: 0 var(--side-margin);
+    margin: 0 var(--side-margin) 2rem;
     max-width: var(--max-width);
     margin-inline: auto;
 
