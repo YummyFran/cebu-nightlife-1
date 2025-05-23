@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react'
 import { NavLink, useLocation } from 'react-router-dom'
 import '../styles/navigation.css'
 import { IoMenu } from "react-icons/io5";
+import Logo from "../assets/Logo.svg"
 
 const Navigation = ({ className }) => {
     const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false)
@@ -14,7 +15,12 @@ const Navigation = ({ className }) => {
   return (
     <div className={`navigation-bar ${className}`}>
         <nav className='nav-links'>
-            <NavLink className="logo" to={'/'}>세부밤문화<span>No.1</span></NavLink>
+            <NavLink className="logo" to={'/'}>
+                <div className="logo-img">
+                    <img src={Logo} alt="logo" />
+                </div>
+                세부밤문화<span>No.1</span>
+            </NavLink>
             <NavLink to={'/poolvilla'} className={({isActive}) => isActive ? 'active-link' : ''}>세부풀빌라</NavLink>
             <NavLink to={'/escortgirl'} className={({isActive}) => isActive ? 'active-link' : ''}>세부에스코트걸</NavLink>
             <NavLink to={'/golf'} className={({isActive}) => isActive ? 'active-link' : ''}>세부골프</NavLink>

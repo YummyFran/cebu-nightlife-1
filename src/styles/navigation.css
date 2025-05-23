@@ -34,6 +34,19 @@
             font-size: 1.3rem;
             font-weight: 900;
             color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 1rem;
+
+            .logo-img {
+                height: 3rem;
+
+                img {
+                    height: 100%;
+                    width: 100%;
+                }
+            }
 
         }
     
