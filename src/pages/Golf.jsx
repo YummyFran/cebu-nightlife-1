@@ -10,9 +10,9 @@ const Golf = () => {
     <main>
       <Helmet key={pathname}>
         <title>세부 골프패키지 & 혼체골프패키지 | 세부밤문화No.1</title>  
-        <meta name="description" content="세부 풀빌라 패키지와 황제 패키지 투어 설명 이미지 – 야간 수영장 사진과 여행 일정표 포함, 카카오톡 및 텔레그램 상담 안내 포함" />
+        <meta name="description" content="세부 골프패키지 & 혼체골프패키지 완벽 안내! 황제 골프 일정과 포함사항, 인기 골프클럽 소개, 유용한 골프 팁까지 한눈에 확인해보세요." />
         <meta property="og:title" content="세부 골프패키지 & 혼체골프패키지 | 세부밤문화No.1" />
-        <meta property="og:description" content="세부 풀빌라 패키지와 황제 패키지 투어 설명 이미지 – 야간 수영장 사진과 여행 일정표 포함, 카카오톡 및 텔레그램 상담 안내 포함" />
+        <meta property="og:description" content="세부 골프패키지 & 혼체골프패키지 완벽 안내! 황제 골프 일정과 포함사항, 인기 골프클럽 소개, 유용한 골프 팁까지 한눈에 확인해보세요." />
         <meta property="og:image" content="https://cebu-nightlife-1.vercel.app/og-image.jpg" />
       </Helmet>
 

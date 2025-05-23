@@ -11,9 +11,9 @@ const EscortGirl = () => {
     <main> 
       <Helmet key={pathname}>
         <title>세부에스코트걸 & 에코걸 | 세부밤문화No.1</title>  
-        <meta name="description" content="세부 풀빌라 패키지와 황제 패키지 투어 설명 이미지 – 야간 수영장 사진과 여행 일정표 포함, 카카오톡 및 텔레그램 상담 안내 포함" />
+        <meta name="description" content="세부에스코트걸 & 에코걸 서비스를 만나보세요. 안전한 필리핀 여행 정보를 포함한 유익한 콘텐츠 제공! 세부에서 특별한 경험을 원하신다면 지금 확인하세요.세부 골프패키지 & 혼체골프패키지" />
         <meta property="og:title" content="세부에스코트걸 & 에코걸 | 세부밤문화No.1" />
-        <meta property="og:description" content="세부 풀빌라 패키지와 황제 패키지 투어 설명 이미지 – 야간 수영장 사진과 여행 일정표 포함, 카카오톡 및 텔레그램 상담 안내 포함" />
+        <meta property="og:description" content="세부에스코트걸 & 에코걸 서비스를 만나보세요. 안전한 필리핀 여행 정보를 포함한 유익한 콘텐츠 제공! 세부에서 특별한 경험을 원하신다면 지금 확인하세요.세부 골프패키지 & 혼체골프패키지" />
         <meta property="og:image" content="https://cebu-nightlife-1.vercel.app/og-image.jpg" />
       </Helmet>
 

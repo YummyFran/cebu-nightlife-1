@@ -12,9 +12,9 @@ const Inquiry = () => {
     <main className='blog'>
       <Helmet key={pathname}>
         <title>1:1문의 | 세부밤문화No.1</title>  
-        <meta name="description" content="세부 풀빌라 패키지와 황제 패키지 투어 설명 이미지 – 야간 수영장 사진과 여행 일정표 포함, 카카오톡 및 텔레그램 상담 안내 포함" />
+        <meta name="description" content="세부 밤문화 여행, 믿을 수 있는 1:1문의로 시작하세요! 안전하고 확실한 업체와 함께 필리핀 세부에서 잊지 못할 에코걸 힐링 여행을 즐겨보세요. 카카오톡 & 텔레그램 문의 가능!" />
         <meta property="og:title" content="1:1문의 | 세부밤문화No.1" />
-        <meta property="og:description" content="세부 풀빌라 패키지와 황제 패키지 투어 설명 이미지 – 야간 수영장 사진과 여행 일정표 포함, 카카오톡 및 텔레그램 상담 안내 포함" />
+        <meta property="og:description" content="세부 밤문화 여행, 믿을 수 있는 1:1문의로 시작하세요! 안전하고 확실한 업체와 함께 필리핀 세부에서 잊지 못할 에코걸 힐링 여행을 즐겨보세요. 카카오톡 & 텔레그램 문의 가능!" />
         <meta property="og:image" content="https://cebu-nightlife-1.vercel.app/og-image.jpg" />
       </Helmet>
             
