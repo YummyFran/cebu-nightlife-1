@@ -11,8 +11,13 @@ const Inquiry = () => {
         <meta property="og:description" content="세부 밤문화 여행, 믿을 수 있는 1:1문의로 시작하세요! 안전하고 확실한 업체와 함께 필리핀 세부에서 잊지 못할 에코걸 힐링 여행을 즐겨보세요. 카카오톡 & 텔레그램 문의 가능!" />
         <meta property="og:image" content="https://cebu-nightlife-1.vercel.app/og-image.jpg" />
             
-      <div className="container">
-        <h1 className='heading'>세부밤문화No.1</h1>
+      <div className="container" style={{paddingTop: "3rem"}}>
+            <ContextImageSection
+              image={{
+                src: "PoolVilla1.jpg",
+                alt: "pool"
+              }}
+            />
         <ContextImageSection
           context={`
             [r]안전 한 업체, 믿을만한 업체, 문제가 생겨도 처리할 수 있는 능력이 있는 업체
