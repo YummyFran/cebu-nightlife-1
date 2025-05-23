@@ -52,7 +52,7 @@
     
         & > a {
             text-decoration: none;
-            color: white;
+            color: black;
             font-size: 1.5rem;
             font-weight: 600    ;
 
@@ -96,6 +96,22 @@
                 text-decoration: none;
                 color: black;
                 font-weight: 600;
+                position: relative;
+                display: flex;
+                align-items: center;
+                gap: 1rem;
+                justify-content: center;
+
+                .pointer {
+                    height: 4rem;
+                    aspect-ratio: 1;
+                    
+                    img {
+                        width: 100%;
+                        height: 100%;
+                        object-fit: contain;
+                    }
+                }
 
                 &.active {
                     color: var(--accent-color);
