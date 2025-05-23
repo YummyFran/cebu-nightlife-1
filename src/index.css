@@ -20,7 +20,6 @@
 main:not(#homepage) {
     background-color: var(--primary-color);
     /* min-height: 100vh; */
-    padding-top: 4rem;
     padding-inline: var(--side-margin);
 
     .container {
@@ -71,6 +70,8 @@ main:not(#homepage) {
     }
 
     main:not(#homepage) {
+        padding-top: 4rem;
+
         .container {
             max-width: var(--max-width);
             padding: 0 1rem;
