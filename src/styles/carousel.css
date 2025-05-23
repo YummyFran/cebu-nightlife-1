@@ -33,6 +33,7 @@
         text-align: center;
         margin-inline: var(--side-margin);
         pointer-events: none;
+        padding-top: 10rem;
 
         .cta {
             display: flex;
