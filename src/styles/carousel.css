@@ -40,9 +40,12 @@
             justify-content: center;
             padding-top: 11rem;
             gap: 1rem;
+            position: relative;
+            z-index: 100;
 
             .cta-btn {
                 height: 7rem;
+                cursor: pointer;
 
                 * {
                     height: 100%;
