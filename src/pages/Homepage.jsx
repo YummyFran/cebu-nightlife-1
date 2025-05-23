@@ -2,6 +2,9 @@ import Carousel from '../components/Carousel'
 import Banner1 from '../assets/banner1.jpg'
 import Banner2 from '../assets/banner4.jpg'
 import BannerMobile from '../assets/banner-mobile.jpg'
+import CTAButtons from '../components/CTAButtons'
+import KakaoBtn from '../components/KakaoBtn'
+import TelegramBtn from '../components/Telegrambtn'
 
 const carouselImages = [
   {
@@ -31,12 +34,16 @@ const Homepage = () => {
             <meta property="og:image" content="https://cebu-nightlife-1.vercel.app/og-image.jpg" />
         <Carousel images={carouselImages} className="desktop">
             <header className="hero">
-                <h1 className='heading'>세부의 밤을 즐기는 가장 완벽한 방법</h1>
+                <h1 className='heading'><span className='black'>세부밤문화</span> 정보를 찾는 중이신가요?</h1>
+                {/* <div className="cta">
+                  <KakaoBtn />
+                  <TelegramBtn />
+                </div> */}
             </header>
         </Carousel>
         <Carousel images={carouserImagesMobile} className="mobile">
             <header className="hero">
-                <h1 className='heading'>세부밤문화 정보를 찾는 중이신가요?</h1>
+                <h1 className='heading'><span className='black'>세부밤문화</span> 정보를 찾는 중이신가요?</h1>
                 <h2 className="subheading">
                   지인 혹 친구들과 가는여행 잊지못할 밤문화여행 하셔야 겠지요.
                   <br/>
