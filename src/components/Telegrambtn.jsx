@@ -1,4 +1,4 @@
-import TelegramImage from '../assets/cta-telegram-btn.jpg'
+import TelegramImage from '../assets/cta-telegram-btn.png'
 
 const TelegramBtn = () => {
   return (

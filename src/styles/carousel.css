@@ -34,6 +34,23 @@
         margin-inline: var(--side-margin);
         pointer-events: none;
 
+        .cta {
+            display: flex;
+            justify-content: center;
+            padding-top: 4rem;
+            gap: 1rem;
+
+            .cta-btn {
+                height: 7rem;
+
+                * {
+                    height: 100%;
+                    width: 100%;
+                    object-fit: contain;
+                }
+            }
+        }
+
         h1 {
             font-size: 1.5rem;
             font-weight: 800;
@@ -101,8 +118,8 @@
             .cta {
                 display: flex;
                 justify-content: center;
-                padding-top: 2rem;
-                gap: 3rem;
+                padding-top: 1rem;
+                gap: 5rem;
 
                 .cta-btn {
                     height: 7rem;
@@ -121,6 +138,7 @@
 
             h2 {
                 font-size: 1rem;
+                line-height: 2;
             }
         }
     }

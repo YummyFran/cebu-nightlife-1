@@ -1,4 +1,4 @@
-import KakaoImage from '../assets/cta-kakao-btn.jpg'
+import KakaoImage from '../assets/cta-kakao-btn.png'
 
 const KakaoBtn = () => {
   return (
