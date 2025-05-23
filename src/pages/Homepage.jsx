@@ -36,7 +36,7 @@ const Homepage = () => {
         </Carousel>
         <Carousel images={carouserImagesMobile} className="mobile">
             <header className="hero">
-                <h1 className='heading'>세부의 밤을 즐기는 가장 완벽한 방법</h1>
+                <h1 className='heading'>세부의 밤을 즐기는 가장 <br/>완벽한 방법</h1>
             </header>
         </Carousel>
     </main>
