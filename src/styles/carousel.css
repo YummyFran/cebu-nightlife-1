@@ -37,7 +37,7 @@
         .cta {
             display: flex;
             justify-content: center;
-            padding-top: 13rem;
+            padding-top: 11rem;
             gap: 1rem;
 
             .cta-btn {
