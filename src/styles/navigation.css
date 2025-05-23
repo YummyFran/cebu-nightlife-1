@@ -29,7 +29,7 @@
         & > a {
             text-decoration: none;
             color: black;
-            font-size: 1.2rem;
+            font-size: 2rem;
             font-weight: 600    ;
 
             &.active-link,
@@ -57,7 +57,7 @@
             left: 100%;
             min-width: 100vw;
             padding: 0 var(--side-margin);
-            font-size: 1rem;
+            font-size: 2rem;
             display: flex;
             transition: 0.3s;
 
