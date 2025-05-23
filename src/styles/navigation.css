@@ -10,6 +10,19 @@
     padding-top: 0rem;
     padding-bottom: 0rem;
 
+    &.not-home {
+        background-color: var(--primary-color);
+        color: black;
+
+        a.logo {
+            color: black;
+        }
+
+        a {
+            color: black;
+        }
+    }
+
     .nav-links {
         display: flex;
         align-items: center;
@@ -26,13 +39,13 @@
     
         & > a {
             text-decoration: none;
-            color: black;
+            color: white;
             font-size: 1.5rem;
             font-weight: 600    ;
 
             &.active-link,
             &:hover {
-                color: var(--accent-color);
+                /* color: var(--accent-color); */
                 transition: 0.3s;
             }
 

@@ -3,7 +3,7 @@ import { NavLink, useLocation } from 'react-router-dom'
 import '../styles/navigation.css'
 import { IoMenu } from "react-icons/io5";
 
-const Navigation = () => {
+const Navigation = ({ className }) => {
     const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false)
     const route = useLocation()
 
@@ -12,7 +12,7 @@ const Navigation = () => {
     }, [route.pathname])
 
   return (
-    <div className="navigation-bar">
+    <div className={`navigation-bar ${className}`}>
         <nav className='nav-links'>
             <NavLink className="logo" to={'/'}>세부밤문화<span>No.1</span></NavLink>
             <NavLink to={'/poolvilla'} className={({isActive}) => isActive ? 'active-link' : ''}>세부풀빌라</NavLink>
