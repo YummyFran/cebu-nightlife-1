@@ -6,6 +6,7 @@
     left: 0;
     right: 0;
     z-index: 10;
+    box-shadow: 0 0 4px 0 #cecece;
 
     .nav-links {
         display: flex;
@@ -30,9 +31,12 @@
             font-size: 1rem;
             font-weight: 600    ;
 
-            &.active-link {
+            &.active-link,
+            &:hover {
                 color: var(--accent-color);
+                transition: 0.3s;
             }
+
         }
 
         & > a:not(.logo) {
