@@ -40,6 +40,10 @@ main.blog {
                 width: 60%;
                 object-fit: contain;
                 border-radius: 0.5rem;
+
+                &.fit {
+                    object-fit:none;
+                }
             }
         }
     }

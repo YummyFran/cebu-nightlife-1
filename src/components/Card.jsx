@@ -3,7 +3,7 @@ import { useNavigate } from "react-router-dom";
 
 const images = import.meta.glob('../assets/*');
 
-const Card = ({ title, description, imageUrl, imagePosition, slug}) => {
+const Card = ({ title, description, imageUrl, imagePosition, slug, fit}) => {
   const navigate = useNavigate()
 
   const [imgSrc, setImgSrc] = useState('')
@@ -34,7 +34,7 @@ const Card = ({ title, description, imageUrl, imagePosition, slug}) => {
     <div className="card" onClick={() => navigate(slug)}>
       {imgSrc ? (
         <img src={imgSrc} alt={title} width={300} height={266}
-        className="card-image"
+        className={`card-image ${fit}`}
         style={{objectPosition: imagePosition}} />
       ) : (
         <div className="card-image-placeholder" />

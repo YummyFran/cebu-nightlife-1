@@ -13,6 +13,7 @@ const TwoCardLayout = ({ cards = [] }) => {
           imageUrl={card.imageUrl} 
           imagePosition={card.imagePosition}
           slug={card.slug}
+          fit={card.fit}
           />
         ))
       }

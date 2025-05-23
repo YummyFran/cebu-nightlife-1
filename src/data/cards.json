@@ -25,7 +25,8 @@
             "title": "필리핀 치안 안전한가요?", 
             "imageUrl": "src/assets/EscortGirl2.jpg",
             "imagePosition": "top",
-            "slug": "is-the-philippines-safe-to-visit" 
+            "slug": "is-the-philippines-safe-to-visit",
+            "fit": "contain"
         }
     ],
 

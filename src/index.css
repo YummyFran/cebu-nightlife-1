@@ -19,7 +19,7 @@
 
 main:not(#homepage) {
     background-color: var(--primary-color);
-    min-height: 100vh;
+    /* min-height: 100vh; */
     padding-top: 4rem;
     padding-inline: var(--side-margin);
 
