@@ -12,7 +12,7 @@ const Inquiry = () => {
         <meta property="og:image" content="https://cebu-nightlife-1.vercel.app/og-image.jpg" />
             
       <div className="container">
-        <h1 className='heading'>1:1문의</h1>
+        <h1 className='heading'>세부밤문화No.1</h1>
         <ContextImageSection
           context={`
             [r]안전 한 업체, 믿을만한 업체, 문제가 생겨도 처리할 수 있는 능력이 있는 업체
@@ -20,10 +20,6 @@ const Inquiry = () => {
             지인 혹 친구들과 가는여행 잊지못할 밤문화여행 하셔야 겠지요.
             필리핀 치안,밤문화 불안감 등은 접어두시고
             환상의섬 세부에서 에코걸과 힐링여행 어떠신가요?
-          `}
-        />
-        <ContextImageSection
-          context={`
             더 자세한 문의와 비용등 궁금하신거 있으시면 아래 카카오톡 & 텔레그램으로 문의주세요^^
           `}
         />

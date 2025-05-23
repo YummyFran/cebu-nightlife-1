@@ -25,7 +25,7 @@ main.blog {
             line-height: 2.5rem;
 
             &.red {
-                color: var(--accent-color);
+                color: red;
             }
         }
 
