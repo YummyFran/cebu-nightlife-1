@@ -1,6 +1,6 @@
-import TelegramImage from '../assets/cta-telegram-btn-orig.png'
+import TelegramImage from '../assets/cta-telegram-btn.png'
 
-const TelegramBtn = () => {
+const TelegramBtnWhite = () => {
   return (
     <div className='telegram cta-btn'>
       <a
@@ -20,4 +20,4 @@ const TelegramBtn = () => {
   );
 };
 
-export default TelegramBtn;
+export default TelegramBtnWhite;

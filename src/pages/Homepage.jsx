@@ -2,9 +2,9 @@ import Carousel from '../components/Carousel'
 import Banner1 from '../assets/banner1.jpg'
 import Banner2 from '../assets/banner4.jpg'
 import BannerMobile from '../assets/banner-mobile.jpg'
-import CTAButtons from '../components/CTAButtons'
-import KakaoBtn from '../components/KakaoBtn'
 import TelegramBtn from '../components/Telegrambtn'
+import KakaoBtnWhite from '../components/KakaoBtnWhite'
+import TelegramBtnWhite from '../components/TelegrambtnWhite'
 
 const carouselImages = [
   {
@@ -43,8 +43,8 @@ const Homepage = () => {
                   환상의섬 세부에서 힐링여행 어떠신가요?
                 </h2>
                 <div className="cta">
-                  <KakaoBtn />
-                  <TelegramBtn />
+                  <KakaoBtnWhite />
+                  <TelegramBtnWhite />
                 </div>
             </header>
         </Carousel>
@@ -59,8 +59,8 @@ const Homepage = () => {
                   환상의섬 세부에서 힐링여행 어떠신가요?
                 </h2>
                 <div className="cta">
-                  <KakaoBtn />
-                  <TelegramBtn />
+                  <KakaoBtnWhite />
+                  <TelegramBtnWhite />
                 </div>
             </header>
         </Carousel>

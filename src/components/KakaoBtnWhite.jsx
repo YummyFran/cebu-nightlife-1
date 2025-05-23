@@ -1,6 +1,6 @@
-import KakaoImage from '../assets/cta-kakao-btn-orig.png'
+import KakaoImage from '../assets/cta-kakao-btn.png'
 
-const KakaoBtn = () => {
+const KakaoBtnWhite = () => {
   return (
     <div className='kakao cta-btn'>
       <a
@@ -20,4 +20,4 @@ const KakaoBtn = () => {
   );
 };
 
-export default KakaoBtn;
+export default KakaoBtnWhite;
