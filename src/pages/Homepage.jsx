@@ -35,10 +35,10 @@ const Homepage = () => {
         <Carousel images={carouselImages} className="desktop">
             <header className="hero">
                 <h1 className='heading'><span className='black'>세부밤문화</span> 정보를 찾는 중이신가요?</h1>
-                {/* <div className="cta">
+                <div className="cta">
                   <KakaoBtn />
                   <TelegramBtn />
-                </div> */}
+                </div>
             </header>
         </Carousel>
         <Carousel images={carouserImagesMobile} className="mobile">

@@ -98,6 +98,22 @@
         }
 
         .hero {
+            .cta {
+                display: flex;
+                justify-content: center;
+                padding-top: 2rem;
+                gap: 3rem;
+
+                .cta-btn {
+                    height: 7rem;
+
+                    * {
+                        height: 100%;
+                        width: 100%;
+                        object-fit: contain;
+                    }
+                }
+            }
 
             h1 {
                 font-size: 2.5rem;
