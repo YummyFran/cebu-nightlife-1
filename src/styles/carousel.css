@@ -37,10 +37,11 @@
 }
 @media (min-width: 768px) {
     .carousel {
+        margin-top: 3rem;
 
         .swiper {
             width: 100vw;
-            height: 100vh;
+            height: 80vh;
 
             .custom-nav {
                 display: block;

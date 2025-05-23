@@ -14,7 +14,7 @@
     --max-width: 1000px;
 
     --primary-color: #fcfcfc;
-    --accent-color: #fa0101;
+    --accent-color: #000000;
 }
 
 main:not(#homepage) {
@@ -30,10 +30,10 @@ main:not(#homepage) {
         min-height: 100vh;
 
         .heading {
-            margin-top: 2rem;
+            margin-top: 5rem;
             padding: 1rem;
             text-align: center;
-            font-size: 1.8rem;
+            font-size: 2rem;
         }
 
         p {

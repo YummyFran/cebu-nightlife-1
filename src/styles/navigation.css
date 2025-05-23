@@ -6,7 +6,7 @@
     left: 0;
     right: 0;
     z-index: 10;
-    box-shadow: 0 0 4px 0 #cecece;
+    padding-top: 3rem;
 
     .nav-links {
         display: flex;
@@ -28,7 +28,7 @@
         & > a {
             text-decoration: none;
             color: black;
-            font-size: 1rem;
+            font-size: 1.2rem;
             font-weight: 600    ;
 
             &.active-link,
