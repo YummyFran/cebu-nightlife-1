@@ -7,12 +7,12 @@ import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 
-const Carousel = ({ images, interval = 3000, children }) => {
+const Carousel = ({ images, interval = 3000, children, className }) => {
   const prevRef = useRef(null)
   const nextRef = useRef(null)
   
   return (
-    <div className="carousel">
+    <div className={`carousel ${className}`}>
         <Swiper
           modules={[Navigation, Pagination, Autoplay]}
           loop={true}

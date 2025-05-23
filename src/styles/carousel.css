@@ -5,6 +5,14 @@
     justify-content: center;
     align-items: center;
 
+    &.mobile {
+        display: flex;
+    }
+
+    &.desktop {
+        display: none;
+    }
+
     .swiper {
         .custom-nav {
             display: none;
@@ -38,6 +46,14 @@
 @media (min-width: 768px) {
     .carousel {
         margin-top: 3rem;
+
+        &.mobile {
+            display: none;
+        }
+
+        &.desktop {
+            display: flex;
+        }
 
         .swiper {
             width: 100vw;
