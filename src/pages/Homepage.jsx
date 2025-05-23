@@ -37,8 +37,11 @@ const Homepage = () => {
         <Carousel images={carouserImagesMobile} className="mobile">
             <header className="hero">
                 <h1 className='heading'>세부밤문화 정보를 찾는 중이신가요?</h1>
-                <h2 className="subheading">지인 혹 친구들과 가는여행 잊지못할 밤문화여행 하셔야 겠지요.
-필리핀 치안,밤문화 불안감 등은 접어두시고 환상의섬 세부에서 힐링여행 어떠신가요?</h2>
+                <h2 className="subheading">
+                  지인 혹 친구들과 가는여행 잊지못할 밤문화여행 하셔야 겠지요.
+                  <br/>
+                  필리핀 치안,밤문화 불안감 등은 접어두시고 환상의섬 세부에서 힐링여행 어떠신가요?
+                </h2>
             </header>
         </Carousel>
     </main>
