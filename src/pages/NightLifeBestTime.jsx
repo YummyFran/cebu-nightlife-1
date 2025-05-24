@@ -7,7 +7,7 @@ const NightLifeBestTime = () => {
             <meta name="description" content="세부 밤문화 최적기 안내 | 세부 1년 3계절별 여행 특징과 꿀팁! 11월2월 건기 겨울철 선선한 날씨와 극성수기, 35월 무더운 여름철과 과일 풍성한 시즌, 5~10월 우기와 여행 주의사항까지. 안전하고 신뢰할 수 있는 세부밤문화NO.1과 함께하는 잊지 못할 세부 밤문화 여행 정보 제공." />
             <meta property="og:title" content="세부밤문화 가장 좋은시기는? | 세부밤문화No.1" />
             <meta property="og:description" content="세부 밤문화 최적기 안내 | 세부 1년 3계절별 여행 특징과 꿀팁! 11월2월 건기 겨울철 선선한 날씨와 극성수기, 35월 무더운 여름철과 과일 풍성한 시즌, 5~10월 우기와 여행 주의사항까지. 안전하고 신뢰할 수 있는 세부밤문화NO.1과 함께하는 잊지 못할 세부 밤문화 여행 정보 제공." />
-            <meta property="og:image" content="https://cebu-nightlife-1.vercel.app/og-image.jpg" />
+        <meta property="og:image" content="https://www.cebueco.com/og-image.jpg" />
 
         <div className="container">
           <h1 className="heading">세부밤문화 가장 좋은시기는?</h1>

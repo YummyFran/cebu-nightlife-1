@@ -9,7 +9,7 @@ const Inquiry = () => {
         <meta name="description" content="세부 밤문화 여행, 믿을 수 있는 1:1문의로 시작하세요! 안전하고 확실한 업체와 함께 필리핀 세부에서 잊지 못할 에코걸 힐링 여행을 즐겨보세요. 카카오톡 & 텔레그램 문의 가능!" />
         <meta property="og:title" content="1:1문의 | 세부밤문화No.1" />
         <meta property="og:description" content="세부 밤문화 여행, 믿을 수 있는 1:1문의로 시작하세요! 안전하고 확실한 업체와 함께 필리핀 세부에서 잊지 못할 에코걸 힐링 여행을 즐겨보세요. 카카오톡 & 텔레그램 문의 가능!" />
-        <meta property="og:image" content="https://cebu-nightlife-1.vercel.app/og-image.jpg" />
+        <meta property="og:image" content="https://www.cebueco.com/og-image.jpg" />
             
       <div className="container" style={{paddingTop: "3rem"}}>
             <ContextImageSection

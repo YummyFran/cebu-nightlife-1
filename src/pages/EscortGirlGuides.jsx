@@ -7,7 +7,7 @@ const EscortGirlGuides= () => {
             <meta name="description" content="3세부에스코트걸 이용 꿀팁! 자유여행형 미팅부터 프리미엄 풀빌라 패키지까지—취향 따라 즐기는 세부 밤문화 여행 가이드. 안전하고 신뢰할 수 있는 세부밤문화 No.1과 함께하세요!" />
             <meta property="og:title" content="3세부에스코트걸을 이용하는2가지방법 | 세부밤문화No.1" />
             <meta property="og:description" content="3세부에스코트걸 이용 꿀팁! 자유여행형 미팅부터 프리미엄 풀빌라 패키지까지—취향 따라 즐기는 세부 밤문화 여행 가이드. 안전하고 신뢰할 수 있는 세부밤문화 No.1과 함께하세요!" />
-            <meta property="og:image" content="https://cebu-nightlife-1.vercel.app/og-image.jpg" />
+            <meta property="og:image" content="https://www.cebueco.com/og-image.jpg" />
 
         <div className="container">
             <h1 className="heading">세부에스코트걸을 이용하는2가지방법</h1>

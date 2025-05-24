@@ -7,7 +7,7 @@ const GolfPackage = () => {
             <meta name="description" content="3박 5일 세부 황제 골프 패키지! 전 일정 조/중/석 식사, 고급 풀빌라 3박, 단독 차량 픽업/드랍, 세부 에스코트걸과 54홀 골프 라운딩, 마사지, 대형 쇼핑몰 투어, 비키니바 또는 카지노 체험까지 포함된 완벽한 골프 여행 일정 안내." />
             <meta property="og:title" content="3박5일 세부황제골프패키지포함사항/일정 | 세부밤문화No.1" />
             <meta property="og:description" content="3박 5일 세부 황제 골프 패키지! 전 일정 조/중/석 식사, 고급 풀빌라 3박, 단독 차량 픽업/드랍, 세부 에스코트걸과 54홀 골프 라운딩, 마사지, 대형 쇼핑몰 투어, 비키니바 또는 카지노 체험까지 포함된 완벽한 골프 여행 일정 안내." />
-            <meta property="og:image" content="https://cebu-nightlife-1.vercel.app/og-image.jpg" />
+        <meta property="og:image" content="https://www.cebueco.com/og-image.jpg" />
 
         <div className="container">
             <h1 className="heading">3박5일 세부황제골프패키지포함사항/일정</h1>

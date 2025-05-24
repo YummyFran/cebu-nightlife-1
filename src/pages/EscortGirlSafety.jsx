@@ -7,7 +7,7 @@ const EscortGirlSafety = () => {
             <meta name="description" content="필리핀 세부 밤문화 치안, 과연 안전할까? 실제 사례와 주의사항, 믿을 수 있는 안전한 업체 선택법까지! 세부밤문화 No.1과 함께 안심하고 즐기는 세부 여행 가이드." />
             <meta property="og:title" content="필리핀 치안 안전한가요? | 세부밤문화No.1" />
             <meta property="og:description" content="필리핀 세부 밤문화 치안, 과연 안전할까? 실제 사례와 주의사항, 믿을 수 있는 안전한 업체 선택법까지! 세부밤문화 No.1과 함께 안심하고 즐기는 세부 여행 가이드." />
-            <meta property="og:image" content="https://cebu-nightlife-1.vercel.app/og-image.jpg" />
+        <meta property="og:image" content="https://www.cebueco.com/og-image.jpg" />
 
         <div className="container">
           <h1 className="heading">필리핀 치안 안전한가요?</h1>

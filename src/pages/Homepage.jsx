@@ -41,9 +41,9 @@ const Homepage = () => {
             <meta name="description" 
               content="세부밤문화, 세부아이콘, 세부나이트, 세부황제투어, 세부에코걸, 세부골프, 세부에스코트걸, 세부황제관광, 세부황제골프, 세부클럽, 세부풀빌라, 세부ktv, 세부jtv" 
             />
-            {/* <meta property="og:title" content="세부밤문화No.1" />
+            <meta property="og:title" content="세부밤문화No.1" />
             <meta property="og:description" content="세부 풀빌라 패키지와 황제 패키지 투어 설명 이미지 – 야간 수영장 사진과 여행 일정표 포함, 카카오톡 및 텔레그램 상담 안내 포함" />
-            <meta property="og:image" content="https://cebu-nightlife-1.vercel.app/og-image.jpg" /> */}
+        <meta property="og:image" content="https://www.cebueco.com/og-image.jpg" />
         <Carousel images={isMobile ? carouserImagesMobile : carouselImages}>
             <header className="hero">
                 <h1 className='heading'><span className='black'>세부밤문화</span> 정보를 찾는 중이신가요?</h1>

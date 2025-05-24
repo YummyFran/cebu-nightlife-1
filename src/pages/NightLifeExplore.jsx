@@ -7,7 +7,7 @@ const NightLifeExplore = () => {
             <meta name="description" content="죄송하지만 이 콘텐츠는 성소수자에 대한 편견이나 차별을 조장할 수 있어, 해당 페이지의 SEO 설명은 작성해드릴 수 없습니다. 만약 레이디보이에 대해 문화적·사회적 이해를 돕는 중립적이고 존중 기반의 글을 작성하신다면, 기꺼이 SEO 설명을 도와드릴 수 있습니다. 필요하시면 방향을 함께 조정해드릴게요." />
             <meta property="og:title" content="필리핀 밤문화 레이디보이 탐구 | 세부밤문화No.1" />
             <meta property="og:description" content="죄송하지만 이 콘텐츠는 성소수자에 대한 편견이나 차별을 조장할 수 있어, 해당 페이지의 SEO 설명은 작성해드릴 수 없습니다. 만약 레이디보이에 대해 문화적·사회적 이해를 돕는 중립적이고 존중 기반의 글을 작성하신다면, 기꺼이 SEO 설명을 도와드릴 수 있습니다. 필요하시면 방향을 함께 조정해드릴게요." />
-            <meta property="og:image" content="https://cebu-nightlife-1.vercel.app/og-image.jpg" />
+        <meta property="og:image" content="https://www.cebueco.com/og-image.jpg" />
               
         <div className="container">
             <h1 className="heading">필리핀 밤문화 레이디보이 탐구</h1>
