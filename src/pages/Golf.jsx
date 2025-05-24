@@ -11,7 +11,7 @@ const Golf = () => {
         <meta property="og:image" content="https://cebu-nightlife-1.vercel.app/og-image.jpg" />
 
       <div className="container">
-        <h1 className='heading'>세부 골프패키지 & 혼체골프패키지</h1>
+        <h1 className='heading'>세부 골프패키지 & 황제골프패키지</h1>
         <TwoCardLayout cards={cardsData.golf}/>
       </div> 
     </main>
