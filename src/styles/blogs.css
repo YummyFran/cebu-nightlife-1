@@ -25,7 +25,7 @@ main.blog {
             line-height: 2.5rem;
 
             &.red {
-                color: red;
+                color: rgb(232, 56, 56);
             }
         }
 

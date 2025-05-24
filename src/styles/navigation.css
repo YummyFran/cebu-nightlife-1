@@ -41,6 +41,7 @@
             .logo-img {
                 height: 3rem;
                 aspect-ratio: 1;
+                margin-right: 0.4rem;
 
                 img {
                     height: 100%;
