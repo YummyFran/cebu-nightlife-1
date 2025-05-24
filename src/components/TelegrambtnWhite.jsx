@@ -7,7 +7,7 @@ const TelegramBtnWhite = () => {
         href="https://t.me/CEBUCOCO"
         target="_blank"
         rel="noopener noreferrer"
-        style="pointer-events: none;"
+        style={{ pointerEvents: "none"}}
       >
         <img
           src={TelegramImage}

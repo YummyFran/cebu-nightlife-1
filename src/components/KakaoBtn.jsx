@@ -7,7 +7,7 @@ const KakaoBtn = () => {
         href=""
         target="_blank"
         rel="noopener noreferrer"
-        style="pointer-events: none;"
+        style={{ pointerEvents: "none"}}
       >
         <img
           src={KakaoImage}
