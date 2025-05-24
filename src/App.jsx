@@ -10,6 +10,7 @@ import React from 'react'
 import CardPages from './pages/CardPages'
 import CTALayout from './Layouts/CTALayout'
 import ScrollToTop from './components/ScrollToTop'
+import NotFound from './pages/NotFound'
 
 const categories = [
   {
@@ -47,6 +48,7 @@ function App() {
                 </Route>
               ))
             }
+            <Route path='*' element={<NotFound />} />
           </Route>
           
         </Routes>
