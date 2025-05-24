@@ -4,9 +4,10 @@ const KakaoBtn = () => {
   return (
     <div className='kakao cta-btn'>
       <a
-        href="https://pf.kakao.com/CEBUCOCO/chat"
+        href=""
         target="_blank"
         rel="noopener noreferrer"
+        style="pointer-events: none;"
       >
         <img
           src={KakaoImage}

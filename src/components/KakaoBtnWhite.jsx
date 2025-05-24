@@ -7,6 +7,7 @@ const KakaoBtnWhite = () => {
         href="https://pf.kakao.com/CEBUCOCO/chat"
         target="_blank"
         rel="noopener noreferrer"
+        style="pointer-events: none;"
       >
         <img
           src={KakaoImage}
