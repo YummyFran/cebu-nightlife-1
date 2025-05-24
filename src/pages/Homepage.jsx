@@ -37,11 +37,11 @@ const Homepage = () => {
 
   return (
     <main id='homepage'>
-            <title>세부밤문화No.1</title>  
+            <title>세부밤문화넘버원</title>  
             <meta name="description" 
               content="세부밤문화 풀빌라패키지 , 세부에코걸, 세부에스코트걸, 세부황제골프, 세부 최신 황제투어에 대한 총 정리" 
             />
-            <meta property="og:title" content="세부밤문화No.1" />
+            <meta property="og:title" content="세부에코걸 & 황제투어에 대한 총 정리" />
             <meta property="og:description" content="세부밤문화 풀빌라패키지 , 세부에코걸, 세부에스코트걸, 세부황제골프, 세부 최신 황제투어에 대한 총 정리" />
         <meta property="og:image" content="https://www.cebueco.com/og-image.jpg" />
         <Carousel images={isMobile ? carouserImagesMobile : carouselImages}>
