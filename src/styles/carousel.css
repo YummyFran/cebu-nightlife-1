@@ -124,11 +124,11 @@
             .cta {
                 display: flex;
                 justify-content: center;
-                padding-top: 1rem;
+                padding-top: 4rem;
                 gap: 5rem;
 
                 .cta-btn {
-                    height: 7rem;
+                    height: 11rem;
 
                     * {
                         height: 100%;
