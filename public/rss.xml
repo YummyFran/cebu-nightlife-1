@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+  <channel>
+    <title>세부에코걸 - 최신 업데이트</title>
+    <link>https://www.cebueco.com</link>
+    <description>세부 황제투어와 밤문화 관련 최신 정보</description>
+    <language>ko</language>
+    <lastBuildDate>Sun, 25 May 2025 12:00:00 +0900</lastBuildDate>
+
+    <item>
+      <title>최신 황제투어 패키지 안내</title>
+      <link>https://www.cebueco.com/blog/package-update</link>
+      <description>2025년 황제투어 패키지가 새롭게 업데이트되었습니다.</description>
+      <pubDate>Sun, 25 May 2025 12:00:00 +0900</pubDate>
+    </item>
+
+    <!-- Add more items as needed -->
+  </channel>
+</rss>
