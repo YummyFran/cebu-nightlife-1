@@ -20,7 +20,7 @@ const Navigation = ({ className }) => {
                 <div className="logo-img">
                     <img src={Logo} alt="logo" />
                 </div>
-                세부밤문화<span>No.1</span>
+                세부밤문화<span>넘버원</span>
             </NavLink>
             <NavLink to={'/poolvilla'} className={({isActive}) => isActive ? 'active-link' : ''}>세부풀빌라</NavLink>
             <NavLink to={'/escortgirl'} className={({isActive}) => isActive ? 'active-link' : ''}>세부에스코트걸</NavLink>
@@ -47,7 +47,7 @@ const Navigation = ({ className }) => {
                     <div className="pointer">
                         <img src={Pointer} alt="" />
                     </div>
-                    세부골프
+                    세부황제골프
                 </NavLink>
                 <NavLink to={'/nightlife'} className={({isActive}) => isActive ? 'active-link' : ''}>
                     <div className="pointer">
