@@ -37,7 +37,8 @@ const Homepage = () => {
 
   return (
     <main id='homepage'>
-            <title>세부밤문화넘버원 - 필리핀 세부 황제투어 및 에코걸 전문 업체</title>  
+            <title>세부밤문화넘버원 - 필리핀 세부 황제투어 및 에코걸 전문 업체</title>
+            <link rel="canonical" href="https://www.cebueco.com" />
             {/* <meta name="description" 
               content="세부밤문화 풀빌라패키지 , 세부에코걸, 세부에스코트걸, 세부황제골프, 세부 최신 황제투어에 대한 총 정리" 
             /> */}
