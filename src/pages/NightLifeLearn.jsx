@@ -15,8 +15,6 @@ const NightLifeLearn = () => {
             <h1 className="heading">필리핀말 배우기</h1>
             <ContextImageSection
               context={`             
-                ​안녕하세요
-                세부 밤문화 1등 세부밤문화NO.1 입니다^^
                 세부 밤문화 꽃 황제투어에 대해서 한 말씀드리자면
                 한번도 안오신 분들은 있어도
                 한번만 오시는 분들은 없다. ​ 
@@ -73,7 +71,7 @@ const NightLifeLearn = () => {
               context={`
                 적어도 이 정도의 말 정도는 영어 말고
                 필리핀 말 세부아노로 말해주면
-                에코걸 & 에스코트걸들 정말 좋아한답니다^^
+                짝꿍들이 정말 좋아한답니다^^
               `}
               image={{
                 src: "learn5.jpg",
