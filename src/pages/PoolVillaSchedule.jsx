@@ -1,5 +1,6 @@
 
 import Sched1 from '../assets/Schdule1.jpg'
+import ContextImageSection from '../components/ContextImageSection'
 
 const PoolVillaSchdule= () => {
   return (
@@ -13,20 +14,24 @@ const PoolVillaSchdule= () => {
         
         <div className="container">
             <h1 className='heading'>3박5일 풀빌라 패키지&황제투어 4인기준 포함사항 & 일정표</h1>
-            <section>
-                <p>★ 전 일정 조/중/석 식사 포함 (석식: 풀빌라 바베큐파티 1회 포함)</p>
-                <p>★전일정 소주 맥주 생수 무제한제공</p>
-                <p>(단 풀빌라외 외부식당 이용시 주류불포함)</p>
-                <p>★ 전 일정 차량 픽업/드롭</p>
-                <p>★ 세부 럭셔리 풀빌라 3박</p>
-                <p>★ 세부에코걸 3일 </p>
-                <p>★ 업체 보유 단독보트 아일랜드 호핑</p>
-                <p>★ 고급 전신 마사지 2회 포함</p>
-                <p>★ 세부 시티투어 & 카지노 탐방 & 개인 쇼핑 시간<br/><br/></p>
-            </section>
-            <div className="image-container">
-                <img src={Sched1} alt="풀빌라 이미지" />
-            </div>
+            
+            <ContextImageSection 
+                context={`
+                    ★ 전 일정 조/중/석 식사 포함 (석식: 풀빌라 바베큐파티 1회 포함)
+                    ★전일정 소주 맥주 생수 무제한제공
+                    (단 풀빌라외 외부식당 이용시 주류불포함)
+                    ★ 전 일정 차량 픽업/드롭
+                    ★ 세부 럭셔리 풀빌라 3박
+                    ★ 세부에코걸 3일 
+                    ★ 업체 보유 단독보트 아일랜드 호핑
+                    ★ 고급 전신 마사지 2회 포함
+                    ★ 세부 시티투어 & 카지노 탐방 & 개인 쇼핑 시간<br/><br/>
+                `}
+                image={{
+                    src: 'Schdule1.jpg',
+                    alt: '풀빌라 이미지'
+                }}
+            />
             <section>
                 <h2>1일차</h2>
                     <p>세부/막탄 국제공항 새벽도착</p>
