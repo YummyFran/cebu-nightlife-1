@@ -16,7 +16,7 @@
 
     "escortgirl": [
         { 
-            "title": "세부에스코트걸을 이용하는2가지방법", 
+            "title": "세부 에스코트걸 & 에코걸", 
             "imageUrl": "src/assets/EscortGirl1.jpg",
             "imagePosition": "top",
             "slug": "guide-to-cebu-escort-services"
@@ -58,12 +58,6 @@
             "imageUrl": "src/assets/Nightlife2.jpg",
             "imagePosition": "top",
             "slug": "learn-filipino" 
-        },
-        { 
-            "title": "필리핀 밤문화 레이디보이 탐구", 
-            "imageUrl": "src/assets/Nightlife3.jpg",
-            "imagePosition": "top",
-            "slug": "exploring-filipino-nightlife-ladyboys" 
         }
 
     ]

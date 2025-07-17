@@ -11,7 +11,7 @@ const EscortGirlGuides= () => {
             <link rel="canonical" href="https://www.cebueco.com/escortgirl/guide-to-cebu-escort-services" />
 
         <div className="container">
-            <h1 className="heading">세부에스코트걸을 이용하는2가지방법</h1>
+            <h1 className="heading">세부 에스코트걸 & 에코걸</h1>
             <ContextImageSection 
               context={`
                 안녕하세요
@@ -45,11 +45,10 @@ const EscortGirlGuides= () => {
                 가장 많이들 이용하시는 상품입니다
                 한국에서 트리바고 및 아고다 등으로 호텔 및 리조트를 예약하고
                 필요하신 날자 및 인원 등을 카톡&텔레그램으로 알려주시면
-                간단한 확인 후 보내드린 프로필로 자기 취향에 맞는에코를 초이스 하여
-                세부 도착 후 미팅하시는 코스입니다
-                남의 시선 따윈 중요하지 않다
+                간단한 확인 후 보내드린 프로필로 취향에 맞게 초이스하여 세부 도착 후 
+                me팅 하는코스입니다 남의 시선 따윈 중요하지 않다
                 낮에는 유명 관광지 및 쇼핑몰 저녁에는 맛집 및 클럽 등
-                에코와 애인처럼 같이다니며 달콤한 여행을 꿈꾸는 분들께 추천드립니다
+                같이다니며 달콤한 여행을 꿈꾸는 분들께 추천드립니다
               `}
               image={{
                 src: "guides3.jpg",

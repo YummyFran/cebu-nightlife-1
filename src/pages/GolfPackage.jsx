@@ -38,7 +38,7 @@ const GolfPackage = () => {
                 한국 출발 
                 세부/막탄 국제공항 새벽도착
                 가이드 미팅 후 이동 
-                풀빌라 체크인 후 세부에코 미팅
+                풀빌라 체크인 후 세부 에코 & 음주가무
               `}
             />
             <ContextImageSection
@@ -47,7 +47,7 @@ const GolfPackage = () => {
                 풀빌라 조식
                 세부골프 클럽으로 이동
                 세부 골프 클럽 18홀
-                저녁식사 후 세부에코미팅 & 풀빌라휴식
+                저녁식사 후 & 풀빌라휴식
               `}
             />
             <ContextImageSection
