@@ -65,31 +65,15 @@ const EscortGirlSafety = () => {
           <ContextImageSection
             context={`
               그러면 필리핀 세부 밤문화 여행시
-              발생할 수 있는 각종 범죄 및 강도사건은
+              발생할 수 있는 일은
               대략 어떤것들일까요?
               작년 일어났던 한국인 7명 사건도
-              클럽 및 길거리에서 저렴하게 대리고 갈려다
+              클럽 및 길거리에서 저렴하게 픽업하려다
               결국 낭패를 보게 되었죠
             `}
             image={{
               src: "safety5.jpg",
               alt: "news"
-            }}
-          />
-          <ContextImageSection
-            context={`
-              클럽 등 길거리에서 흥정하고
-              저렴하게 네고 해서 호텔로 데리고 왔는데
-              호텔에서 더 달라고 때 쓰는 바바애와 싸우다가
-              바바애가 경찰 부르는 경우
-              이외에도 사워 시 소지품에 마약을 넣어서
-              경찰 부른 후 합의금을 요구하는 경우 등등
-              이런 일들을 막상 당한 사람들은
-              평생 숨기고 살아야 할 만큼 치욕적인 일이겠지요
-            `}
-            image={{
-              src: "safety6.jpg",
-              alt: "girl on mirror"
             }}
           />
           <ContextImageSection
