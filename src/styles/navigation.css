@@ -21,15 +21,12 @@
         a {
             color: black;
         }
-
-    }
-
-    &:has(:not(.not-home)) {
-
-        .nav-links .burger-menu{
-            border: 2px solid black;
+        
+        .nav-links .burger-menu {
+            border-color: black;
         }
     }
+
 
     .nav-links {
         display: flex;
@@ -79,7 +76,7 @@
 
         .burger-menu {
             font-size: 1.2rem;
-            border: 2px solid black;
+            border: 2px solid white;
             padding: 0.5rem 1rem;
             border-radius: 0.5rem;
         }
