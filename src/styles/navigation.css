@@ -70,7 +70,10 @@
         }
 
         .burger-menu {
-            font-size: 1.5rem;
+            font-size: 1.2rem;
+            border: 2px solid white;
+            padding: 0.5rem 1rem;
+            border-radius: 0.5rem;
         }
 
         .mobile-nav-links {

@@ -27,7 +27,9 @@ const Navigation = ({ className }) => {
             <NavLink to={'/golf'} className={({isActive}) => isActive ? 'active-link' : ''}>세부골프</NavLink>
             <NavLink to={'/nightlife'} className={({isActive}) => isActive ? 'active-link' : ''}>세부밤문화정보</NavLink>
             <NavLink to={'/inquiry'} className={({isActive}) => isActive ? 'active-link' : ''}>1:1문의</NavLink>
-            <div className="burger-menu" onClick={() => setIsMobileMenuOpen(true)}><IoMenu /></div>
+            <div className="burger-menu" onClick={() => setIsMobileMenuOpen(true)}>
+                메뉴
+            </div>
             
             <nav className={`mobile-nav-links ${isMobileMenuOpen ? 'show' : ''}`}>
                 <div className="close" onClick={() => setIsMobileMenuOpen(false)}>&times;</div>
