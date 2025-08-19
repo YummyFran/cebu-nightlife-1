@@ -1,5 +1,30 @@
 {
   "rewrites": [
     { "source": "/(.*)", "destination": "/" }
+  ],
+  "redirects": [
+    {
+      "source": "/(.*)",
+      "has": [
+        {
+          "type": "host",
+          "value": "cebueco.com"
+        }
+      ],
+      "destination": "https://cebuecotours.com/$1",
+      "permanent": true
+    },
+    {
+      "source": "/(.*)",
+      "has": [
+        {
+          "type": "host",
+          "value": "www.cebueco.com"
+        }
+      ],
+      "destination": "https://cebuecotours.com/$1",
+      "permanent": true
+    }
   ]
 }
+
