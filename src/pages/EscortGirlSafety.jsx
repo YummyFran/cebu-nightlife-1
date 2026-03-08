@@ -3,12 +3,12 @@ import ContextImageSection from "../components/ContextImageSection"
 const EscortGirlSafety = () => {
   return (
     <main className='blog safety'>
-            <title>필리핀 치안 안전한가요? | 세부밤문화No.1</title>  
-            <meta name="description" content="필리핀 세부 밤문화 치안, 과연 안전할까? 실제 사례와 주의사항, 믿을 수 있는 안전한 업체 선택법까지! 세부밤문화 No.1과 함께 안심하고 즐기는 세부 여행 가이드." />
-            <meta property="og:title" content="필리핀 치안 안전한가요? | 세부밤문화No.1" />
-            <meta property="og:description" content="필리핀 세부 밤문화 치안, 과연 안전할까? 실제 사례와 주의사항, 믿을 수 있는 안전한 업체 선택법까지! 세부밤문화 No.1과 함께 안심하고 즐기는 세부 여행 가이드." />
-        <meta property="og:image" content="https://www.cebueco.com/og-image.jpg" />
-            <link rel="canonical" href="https://www.cebueco.com/escortgirl/is-the-philippines-safe-to-visit" />
+            <title>필리핀 치안 안전한가요? | 세부밤문화투어</title>  
+            <meta name="description" content="필리핀 세부 밤문화 치안, 과연 안전할까? 실제 사례와 주의사항, 믿을 수 있는 안전한 업체 선택법까지! 세부밤문화투어와 함께 안심하고 즐기는 세부 여행 가이드." />
+            <meta property="og:title" content="필리핀 치안 안전한가요? | 세부밤문화투어" />
+            <meta property="og:description" content="필리핀 세부 밤문화 치안, 과연 안전할까? 실제 사례와 주의사항, 믿을 수 있는 안전한 업체 선택법까지! 세부밤문화투어와 함께 안심하고 즐기는 세부 여행 가이드." />
+        <meta property="og:image" content="https://www.cebunightguide.com/og-image.jpg" />
+            <link rel="canonical" href="https://www.cebunightguide.com/escortgirl/is-the-philippines-safe-to-visit" />
 
         <div className="container">
           <h1 className="heading">필리핀 치안 안전한가요?</h1>
@@ -81,7 +81,7 @@ const EscortGirlSafety = () => {
               [r]그렇다고 필리핀 세부를 방문하면 안 되느냐?
               [r]안전 한 업체, 믿을만한 업체, 
               [r]문제가 생겨도 처리할 수 있는 능력이 있는 업체
-              [r]세부밤문화 NO.1과 함께 하시면됩니다!
+              [r]세부밤문화투어와 함께 하시면됩니다!
             `}
           />
         </div>

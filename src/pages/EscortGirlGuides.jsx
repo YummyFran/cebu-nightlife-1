@@ -3,19 +3,19 @@ import ContextImageSection from '../components/ContextImageSection'
 const EscortGirlGuides= () => {
   return (
     <main className='blog guides'>
-            <title>3세부에스코트걸을 이용하는2가지방법| 세부밤문화No.1</title>  
-            <meta name="description" content="3세부에스코트걸 이용 꿀팁! 자유여행형 미팅부터 프리미엄 풀빌라 패키지까지—취향 따라 즐기는 세부 밤문화 여행 가이드. 안전하고 신뢰할 수 있는 세부밤문화 No.1과 함께하세요!" />
-            <meta property="og:title" content="3세부에스코트걸을 이용하는2가지방법 | 세부밤문화No.1" />
-            <meta property="og:description" content="3세부에스코트걸 이용 꿀팁! 자유여행형 미팅부터 프리미엄 풀빌라 패키지까지—취향 따라 즐기는 세부 밤문화 여행 가이드. 안전하고 신뢰할 수 있는 세부밤문화 No.1과 함께하세요!" />
-            <meta property="og:image" content="https://www.cebueco.com/og-image.jpg" />
-            <link rel="canonical" href="https://www.cebueco.com/escortgirl/guide-to-cebu-escort-services" />
+            <title>3세부에스코트걸을 이용하는2가지방법| 세부밤문화투어</title>  
+            <meta name="description" content="3세부에스코트걸 이용 꿀팁! 자유여행형 미팅부터 프리미엄 풀빌라 패키지까지—취향 따라 즐기는 세부 밤문화 여행 가이드. 안전하고 신뢰할 수 있는 세부밤문화투어와 함께하세요!" />
+            <meta property="og:title" content="3세부에스코트걸을 이용하는2가지방법 | 세부밤문화투어" />
+            <meta property="og:description" content="3세부에스코트걸 이용 꿀팁! 자유여행형 미팅부터 프리미엄 풀빌라 패키지까지—취향 따라 즐기는 세부 밤문화 여행 가이드. 안전하고 신뢰할 수 있는 세부밤문화투어와 함께하세요!" />
+            <meta property="og:image" content="https://www.cebunightguide.com/og-image.jpg" />
+            <link rel="canonical" href="https://www.cebunightguide.com/escortgirl/guide-to-cebu-escort-services" />
 
         <div className="container">
             <h1 className="heading">세부 에스코트걸 & 에코걸</h1>
             <ContextImageSection 
               context={`
                 안녕하세요
-                세부 밤문화 1등 세부밤문화 NO.1입니다^^
+                세부 밤문화 1등 세부밤문화투어 입니다^^
                 저희 업체를 알게된 이상 고민은 이제 그만!!
                 오늘도꽉찬 정보들로 세부의 밤을 화려하게 만들어드리겠습니다
               `}
@@ -40,7 +40,7 @@ const EscortGirlGuides= () => {
             <ContextImageSection
               context={`
                 한국에서 미리 호텔 등을 예약하고 세부로 오시는 경우인데요
-                세부밤문화No.1를 찾는 회원분 중 20대,30분들이 
+                세부밤문화투어를 찾는 회원분 중 20대,30분들이 
                 가장 많이들 이용하시는 상품입니다
                 한국에서 트리바고 및 아고다 등으로 호텔 및 리조트를 예약하고
                 필요하신 날자 및 인원 등을 카톡&텔레그램으로 알려주시면
@@ -90,13 +90,13 @@ const EscortGirlGuides= () => {
             <ContextImageSection
               context={`
                 여러분의 즐거움을 배로 만족시켜줄
-                저희 세부밤문화 NO.1과 함께하신다면 가능하십니다
+                저희 세부밤문화투어와 함께하신다면 가능하십니다
                 현재 세부는 한국관광객 뿐만 아니라
                 중국 관광객까지 몰려 호텔 및 클럽 등 상당히 북적거립니다
                 자유여행으로 오셔서 시간 비용 등 고생하지 마시고
                 [r]안전 한 업체, 믿을만한 업체, 
                 [r]문제가 생겨도 처리할 수 있는 능력이 있는 업체
-                [r]세부밤문화 NO.1과 함께 하시면됩니다!!
+                [r]세부밤문화투어와 함께 하시면됩니다!!
                 필리핀 치안,밤문화 불안감 등은 접어두시고
                 환상의섬 세부에서 힐링여행 어떠신가요?
               `}

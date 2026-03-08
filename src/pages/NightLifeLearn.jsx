@@ -4,12 +4,12 @@ import ContextImageSection from "../components/ContextImageSection"
 const NightLifeLearn = () => {
   return (
     <main className='blog learn'>
-        <title>필리핀말 배우기 | 세부밤문화No.1</title>  
-        <meta name="description" content="필리핀 세부 여행 전 필수! 세부아노 기초 회화 배우기 | 세부 밤문화NO.1이 알려주는 에코걸과 소통하는 꿀팁! 따갈로그어와 다른 세부 지역 사투리 ‘세부아노’ 기본 표현 정리. 현지 문화를 이해하고 더 깊은 여행을 위한 필리핀어 가이드. 밤문화 풀빌라 패키지와 함께 즐기는 특별한 세부 경험!" />
-        <meta property="og:title" content="필리핀말 배우기 | 세부밤문화No.1" />
-        <meta property="og:description" content="필리핀 세부 여행 전 필수! 세부아노 기초 회화 배우기 | 세부 밤문화NO.1이 알려주는 에코걸과 소통하는 꿀팁! 따갈로그어와 다른 세부 지역 사투리 ‘세부아노’ 기본 표현 정리. 현지 문화를 이해하고 더 깊은 여행을 위한 필리핀어 가이드. 밤문화 풀빌라 패키지와 함께 즐기는 특별한 세부 경험!" />
-        <meta property="og:image" content="https://www.cebueco.com/og-image.jpg" />
-        <link rel="canonical" href="https://www.cebueco.com/nightlife/learn-filipino" />
+        <title>필리핀말 배우기 | 세부밤문화투어</title>  
+        <meta name="description" content="필리핀 세부 여행 전 필수! 세부아노 기초 회화 배우기 | 세부 세부밤문화투어가 알려주는 에코걸과 소통하는 꿀팁! 따갈로그어와 다른 세부 지역 사투리 ‘세부아노’ 기본 표현 정리. 현지 문화를 이해하고 더 깊은 여행을 위한 필리핀어 가이드. 밤문화 풀빌라 패키지와 함께 즐기는 특별한 세부 경험!" />
+        <meta property="og:title" content="필리핀말 배우기 | 세부밤문화투어" />
+        <meta property="og:description" content="필리핀 세부 여행 전 필수! 세부아노 기초 회화 배우기 | 세부 세부밤문화투어가 알려주는 에코걸과 소통하는 꿀팁! 따갈로그어와 다른 세부 지역 사투리 ‘세부아노’ 기본 표현 정리. 현지 문화를 이해하고 더 깊은 여행을 위한 필리핀어 가이드. 밤문화 풀빌라 패키지와 함께 즐기는 특별한 세부 경험!" />
+        <meta property="og:image" content="https://www.cebunightguide.com/og-image.jpg" />
+        <link rel="canonical" href="https://www.cebunightguide.com/nightlife/learn-filipino" />
         
         <div className="container">
             <h1 className="heading">필리핀말 배우기</h1>
@@ -26,7 +26,7 @@ const NightLifeLearn = () => {
             />
             <ContextImageSection
               context={`
-                세부밤문화NO.1 풀빌라 패키지를 이용하시는 대부분의 손님들은 
+                세부밤문화투어 풀빌라 패키지를 이용하시는 대부분의 손님들은 
                 ​아주 만족하시고 재 방문이 많으십니다. 
                 물론 처음에 오실 때는 두려움과 설렘, 불안함이 가득하지만 
                 ​막상 와보시면 모든 게 쓸데없는 걱정이라는 것을 곧 알게 되지요

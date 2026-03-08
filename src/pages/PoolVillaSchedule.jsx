@@ -5,12 +5,12 @@ import ContextImageSection from '../components/ContextImageSection'
 const PoolVillaSchdule= () => {
   return (
     <main className='blog schedule'>
-        <title>3박5일 풀빌라 패키지&황제투어 4인기준 포함사항 & 일정표| 세부밤문화No.1</title>  
+        <title>3박5일 풀빌라 패키지&황제투어 4인기준 포함사항 & 일정표| 세부밤문화투어</title>  
         <meta name="description" content="3박5일 세부 풀빌라 패키지 & 황제투어! 전 일정 식사, 에코걸 2일, 단독보트 호핑, 고급 마사지, 시티투어까지 포함된 프리미엄 밤문화 여행 코스—4인 기준 완벽한 힐링 일정표 확인하세요." />
-        <meta property="og:title" content="3박5일 풀빌라 패키지&황제투어 4인기준 포함사항 & 일정표 | 세부밤문화No.1" />
+        <meta property="og:title" content="3박5일 풀빌라 패키지&황제투어 4인기준 포함사항 & 일정표 | 세부밤문화투어" />
         <meta property="og:description" content="3박5일 세부 풀빌라 패키지 & 황제투어! 전 일정 식사, 에코걸 2일, 단독보트 호핑, 고급 마사지, 시티투어까지 포함된 프리미엄 밤문화 여행 코스—4인 기준 완벽한 힐링 일정표 확인하세요." />
-        <meta property="og:image" content="https://www.cebueco.com/og-image.jpg" />
-        <link rel="canonical" href="https://www.cebueco.com/poolvilla/schedule" />
+        <meta property="og:image" content="https://www.cebunightguide.com/og-image.jpg" />
+        <link rel="canonical" href="https://www.cebunightguide.com/poolvilla/schedule" />
         
         <div className="container">
             <h1 className='heading'>3박5일 풀빌라 패키지&황제투어 4인기준 포함사항 & 일정표</h1>

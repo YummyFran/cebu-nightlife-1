@@ -4,19 +4,19 @@ import ContextImageSection from '../components/ContextImageSection'
 const PoolVillaDetails = () => {
   return (
     <main className='blog details'>
-        <title>세부풀빌라패키지 & 세부황제투어란?| 세부밤문화No.1</title>  
+        <title>세부풀빌라패키지 & 세부황제투어란?| 세부밤문화투어</title>  
         <meta name="description" content="세부황제투어 & 풀빌라패키지로 럭셔리한 밤문화 여행을 즐겨보세요! 단독 가이드, 전용차량, 풀빌라, 무제한 식사, 호핑투어까지—all-in-one 고품격 세부밤문화의 진수를 경험해보세요." />
-        <meta property="og:title" content="세부풀빌라패키지 & 세부황제투어란? | 세부밤문화No.1" />
+        <meta property="og:title" content="세부풀빌라패키지 & 세부황제투어란? | 세부밤문화투어" />
         <meta property="og:description" content="세부황제투어 & 풀빌라패키지로 럭셔리한 밤문화 여행을 즐겨보세요! 단독 가이드, 전용차량, 풀빌라, 무제한 식사, 호핑투어까지—all-in-one 고품격 세부밤문화의 진수를 경험해보세요." />
-        <meta property="og:image" content="https://www.cebueco.com/og-image.jpg" />
-        <link rel="canonical" href="https://www.cebueco.com/poolvilla/details" />
+        <meta property="og:image" content="https://www.cebunightguide.com/og-image.jpg" />
+        <link rel="canonical" href="https://www.cebunightguide.com/poolvilla/details" />
 
         <div className="container">
             <h1 className='heading'>세부풀빌라패키지 & 세부황제투어란?</h1>            
             <ContextImageSection 
                 context={`
                     안녕하세요
-                    세부 밤문화 1등 세부밤문화 NO.1입니다^^
+                    세부 밤문화 1등 세부밤문화투어 입니다^^
                     오늘은 필리핀 그중에서도 특히 관광지로 유명한
                     세부의 밤문화투어에 대해 이야기해보자 합니다.
                     세부는 연인 및 가족여행지로도 많은 분들이
@@ -101,7 +101,7 @@ const PoolVillaDetails = () => {
                     이런것에 소홀하다고 보심 되십니다.
                     풀빌라 패키지시 제공되는 식사 주류 과일은
                     매일 무제한으로 제공해드리고 있으며
-                    저희 세부밤문화No,1는 아래 사진에서 보다시피
+                    저희 세부밤문화투어는 아래 사진에서 보다시피
                     드시는 음식하나하나에 정성을 쏟고
                     풀빌라 컨디션 또한 정확한 사진으로 제공해드리니
                     드시고 주무시는 문제는 걱정 안하셔도 됩니다!!!
@@ -137,7 +137,7 @@ const PoolVillaDetails = () => {
             />
             <ContextImageSection 
                 context={`
-                    렌트가 아닌 저희 세부밤문화No.1이 보유한 단독차량과
+                    렌트가 아닌 저희 세부밤문화투어가 보유한 단독차량과
                     호핑보트로 안전하게 진행하고 있습니다
                     그리고 동남아를 진미를 한눈에 확인할수있는 야시장투어!!
                 `}

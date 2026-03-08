@@ -20,7 +20,7 @@ const Navigation = ({ className }) => {
                 <div className="logo-img">
                     <img src={Logo} alt="logo" />
                 </div>
-                세부밤문화<span>넘버원</span>
+                세부밤문화투어
             </NavLink>
             <NavLink to={'/poolvilla'} className={({isActive}) => isActive ? 'active-link' : ''}>세부풀빌라</NavLink>
             <NavLink to={'/escortgirl'} className={({isActive}) => isActive ? 'active-link' : ''}>세부에스코트걸</NavLink>

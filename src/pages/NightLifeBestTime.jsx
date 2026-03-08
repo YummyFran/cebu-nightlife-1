@@ -3,20 +3,20 @@ import ContextImageSection from "../components/ContextImageSection"
 const NightLifeBestTime = () => {
   return (
     <main className='blog best-time'>
-            <title>세부밤문화 가장 좋은시기는? | 세부밤문화No.1</title>  
-            <meta name="description" content="세부 밤문화 최적기 안내 | 세부 1년 3계절별 여행 특징과 꿀팁! 11월2월 건기 겨울철 선선한 날씨와 극성수기, 35월 무더운 여름철과 과일 풍성한 시즌, 5~10월 우기와 여행 주의사항까지. 안전하고 신뢰할 수 있는 세부밤문화NO.1과 함께하는 잊지 못할 세부 밤문화 여행 정보 제공." />
-            <meta property="og:title" content="세부밤문화 가장 좋은시기는? | 세부밤문화No.1" />
-            <meta property="og:description" content="세부 밤문화 최적기 안내 | 세부 1년 3계절별 여행 특징과 꿀팁! 11월2월 건기 겨울철 선선한 날씨와 극성수기, 35월 무더운 여름철과 과일 풍성한 시즌, 5~10월 우기와 여행 주의사항까지. 안전하고 신뢰할 수 있는 세부밤문화NO.1과 함께하는 잊지 못할 세부 밤문화 여행 정보 제공." />
-        <meta property="og:image" content="https://www.cebueco.com/og-image.jpg" />
-            <link rel="canonical" href="https://www.cebueco.com/nightlife/best-time-for-cebu-nightlife" />
+            <title>세부밤문화 가장 좋은시기는? | 세부밤문화투어</title>  
+            <meta name="description" content="세부 밤문화 최적기 안내 | 세부 1년 3계절별 여행 특징과 꿀팁! 11월2월 건기 겨울철 선선한 날씨와 극성수기, 35월 무더운 여름철과 과일 풍성한 시즌, 5~10월 우기와 여행 주의사항까지. 안전하고 신뢰할 수 있는 세부밤문화투어과 함께하는 잊지 못할 세부 밤문화 여행 정보 제공." />
+            <meta property="og:title" content="세부밤문화 가장 좋은시기는? | 세부밤문화투어" />
+            <meta property="og:description" content="세부 밤문화 최적기 안내 | 세부 1년 3계절별 여행 특징과 꿀팁! 11월2월 건기 겨울철 선선한 날씨와 극성수기, 35월 무더운 여름철과 과일 풍성한 시즌, 5~10월 우기와 여행 주의사항까지. 안전하고 신뢰할 수 있는 세부밤문화투어과 함께하는 잊지 못할 세부 밤문화 여행 정보 제공." />
+        <meta property="og:image" content="https://www.cebunightguide.com/og-image.jpg" />
+            <link rel="canonical" href="https://www.cebunightguide.com/nightlife/best-time-for-cebu-nightlife" />
 
         <div className="container">
           <h1 className="heading">세부밤문화 가장 좋은시기는?</h1>
           <ContextImageSection
             context={`
               안녕하세요
-              세부 밤문화 1등 세부밤문화NO.1 입니다^^
-              저희  세부밤문화NO.1 알게 된 이상 고민은 이제 그만!!
+              세부 밤문화 1등 세부밤문화투어 입니다^^
+              저희  세부밤문화투어를 알게 된 이상 고민은 이제 그만!!
               오늘도 꽉 정보들은 세부의 밤을 화려하게 만들어 드리겠습니다
               세부 밤문화 여행하려고 하는데 언제가 가장 좋을까요?
             `}
@@ -153,7 +153,7 @@ const NightLifeBestTime = () => {
               잊지못할 밤문화여행 하셔야 겠지요.
               [r]안전 한 업체, 믿을만한 업체, 
               [r]문제가 생겨도 처리할 수 있는 능력이 있는 업체
-              [r]세부밤문화NO.1  함께 하시면됩니다!
+              [r]세부밤문화투어 와 함께 하시면됩니다!
               더 자세한 문의와 비용등 궁금하신거 있으시면 카카오톡 & 텔레그램 으로 문의주세요^^
             `}
           />
