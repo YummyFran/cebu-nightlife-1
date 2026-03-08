@@ -37,17 +37,11 @@ const Homepage = () => {
 
   return (
     <main id='homepage'>
-            <title>세부밤문화넘버원 - 필리핀 세부 황제투어 및 에코걸 전문 업체</title>
-            <link rel="canonical" href="https://www.cebueco.com" />
-            {/* <meta name="description" 
-              content="세부밤문화 풀빌라패키지 , 세부에코걸, 세부에스코트걸, 세부황제골프, 세부 최신 황제투어에 대한 총 정리" 
-            /> */}
-            {/* <meta property="og:title" content="세부에코걸 & 황제투어에 대한 총 정리" />
-            <meta property="og:description" content="세부밤문화 풀빌라패키지 , 세부에코걸, 세부에스코트걸, 세부황제골프, 세부 최신 황제투어에 대한 총 정리" />
-            <meta property="og:image" content="https://www.cebueco.com/og-image.jpg" /> */}
+            <title>세부밤문화투어</title>
+            <link rel="canonical" href="https://www.cebunightguide.com" />
         <Carousel images={isMobile ? carouserImagesMobile : carouselImages}>
             <header className="hero">
-                <h1 className='heading'><span className='black'>세부밤문화</span> 정보를 찾는 중이신가요?</h1>
+                <h1 className='heading'><span className='black'>세부밤문화투어</span> 정보를 찾는 중이신가요?</h1>
                 <h2 className="subheading">
                   지인 혹 친구들과 가는여행 잊지못할 밤문화여행 하셔야 겠지요.
                   <br/>
