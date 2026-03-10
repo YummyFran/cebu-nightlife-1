@@ -37,7 +37,7 @@ const Homepage = () => {
 
   return (
     <main id='homepage'>
-            <title>세부밤문화투어</title>
+            <title>세부밤문화투어•세부 에스코트걸</title>
             <link rel="canonical" href="https://www.cebunightguide.com" />
         <Carousel images={isMobile ? carouserImagesMobile : carouselImages}>
             <header className="hero">
