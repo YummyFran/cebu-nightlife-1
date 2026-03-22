@@ -17,7 +17,7 @@ const categories = [
     category: 'poolvilla',
     element: PoolVilla
   },{
-    category: 'escortgirl',
+    category: 'escort',
     element: EscortGirl
   },{
     category: 'golf',

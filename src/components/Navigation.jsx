@@ -23,7 +23,7 @@ const Navigation = ({ className }) => {
                 세부밤문화투어
             </NavLink>
             <NavLink to={'/poolvilla'} className={({isActive}) => isActive ? 'active-link' : ''}>세부풀빌라</NavLink>
-            <NavLink to={'/escortgirl'} className={({isActive}) => isActive ? 'active-link' : ''}>세부에스코트걸</NavLink>
+            <NavLink to={'/escort'} className={({isActive}) => isActive ? 'active-link' : ''}>세부에스코트걸</NavLink>
             <NavLink to={'/golf'} className={({isActive}) => isActive ? 'active-link' : ''}>세부골프</NavLink>
             <NavLink to={'/nightlife'} className={({isActive}) => isActive ? 'active-link' : ''}>세부밤문화정보</NavLink>
             <NavLink to={'/inquiry'} className={({isActive}) => isActive ? 'active-link' : ''}>1:1문의</NavLink>
