@@ -25,7 +25,6 @@ const pagesData = {
     nightlife: {
         "best-time-for-cebu-nightlife": NightLifeBestTime,
         "learn-filipino": NightLifeLearn,
-        "exploring-filipino-nightlife-ladyboys" : NightLifeExplore
     }
 }
 
