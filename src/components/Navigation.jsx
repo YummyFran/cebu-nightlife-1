@@ -39,7 +39,7 @@ const Navigation = ({ className }) => {
                     </div>
                     세부풀빌라
                 </NavLink>
-                <NavLink to={'/escortgirl'} className={({isActive}) => isActive ? 'active-link' : ''}>
+                <NavLink to={'/escort'} className={({isActive}) => isActive ? 'active-link' : ''}>
                     <div className="pointer">
                         <img src={Pointer} alt="" />
                     </div>
